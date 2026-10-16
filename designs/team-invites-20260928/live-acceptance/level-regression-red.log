@@ -1,0 +1,9 @@
+--- FAIL: TestOnlineDirectoryKeepsOnlineNewPlayerBeforeFirstSnapshot (0.02s)
+    online_directory_unknown_level_test.go:38: 
+        	Error Trace:	E:/work/xuanming-server-mmo/go/friend/internal/data/online_directory_unknown_level_test.go:38
+        	Error:      	"map[6:candidate_player_id:6 is_online:true last_active_ms:123 name:"道友6" level:12 class_id:1 gender:1 appearance_id:"daoshi" zone_id:1]" should have 2 item(s), but has 1
+        	Test:       	TestOnlineDirectoryKeepsOnlineNewPlayerBeforeFirstSnapshot
+        	Messages:   	只允许有效新角色和已存盘角色；自身、无姓名、空/错误身份仍排除
+FAIL
+FAIL	friend/internal/data	0.488s
+FAIL

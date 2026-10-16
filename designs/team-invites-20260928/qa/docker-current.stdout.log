@@ -1,0 +1,18 @@
+kafka:Up 29 minutes
+xm-grafana:Up 34 minutes
+xm-alloy:Up 34 minutes
+xm-loki:Up 34 minutes
+mmorpg-control-plane:Up 34 minutes
+redis-cluster-4:Up 34 minutes
+redis-cluster-1:Up 34 minutes
+redis-cluster-2:Up 34 minutes
+redis-cluster-5:Up 34 minutes
+redis-cluster-3:Up 34 minutes
+redis-cluster-0:Up 34 minutes
+etcd:Up 34 minutes
+tidb:Up 34 minutes (healthy)
+tidb-tikv:Up 34 minutes
+tidb-pd:Up 34 minutes
+nacos:Up 14 seconds
+mysql:Up 34 minutes (healthy)
+redis:Up 34 minutes

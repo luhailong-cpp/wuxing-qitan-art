@@ -1,0 +1,12 @@
+ok  	friend	0.577s
+?   	friend/generated/pb/game	[no test files]
+ok  	friend/internal/config	0.567s
+ok  	friend/internal/constants	0.491s
+ok  	friend/internal/data	2.135s
+?   	friend/internal/kafka	[no test files]
+ok  	friend/internal/lifecycle	0.817s
+ok  	friend/internal/logic	3.363s
+?   	friend/internal/metrics	[no test files]
+ok  	friend/internal/server	0.505s
+ok  	friend/internal/session	0.439s
+?   	friend/internal/svc	[no test files]

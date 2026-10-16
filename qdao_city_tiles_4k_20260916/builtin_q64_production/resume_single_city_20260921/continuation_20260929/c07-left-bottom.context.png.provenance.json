@@ -1,0 +1,16 @@
+{
+  "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260929\\c07-left-bottom.context.png",
+  "sha256": "1f06f2607522efb60fe7cb11c128bbf1ac5c5dd62d4506f5afc18bca9dcfed1e",
+  "derivedFrom": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\r08_c07.png",
+    "sha256": "21eac9a44c5638e6854e9d0cc2711319157aee6eb1cfda46f2716b2b4e9b250a",
+    "record": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\assembly.json"
+  },
+  "operation": "unscaled crop",
+  "sourceCropLTRB": [
+    397,
+    2730,
+    1651,
+    3984
+  ]
+}

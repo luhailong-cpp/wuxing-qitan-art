@@ -1,0 +1,29 @@
+{
+  "preparedAtUtc": "2026-09-28 10:39:37 UTC",
+  "tool": "image_gen.imagegen",
+  "payload": {
+    "prompt": "Repair the first image as a native 1254x1254 game-map patch, preserving exact composition, camera angle and pixel scale. It is an unscaled crop [2445,397,3699,1651] from r08_c07. A false vertical boundary at local x=627 and a false horizontal boundary at local y=627 split the continuous warm stone panel into rectangular color blocks and cause tiny lateral steps in its carved curves and beveled border. Remove both artificial grid seams and their crossing. Rejoin the original long diagonal slab outline, abstract carved ornament, raised ivory frame, grout channels and slim gold accent into coherent curves. Keep every ornament and groove in its original location and retain their proportions; no redesigned symbols, no new text. Match existing outer-edge shapes and endpoints closely, with no crop, zoom, rotation or enlargement. Keep bright clean gently shaded ivory, rounded polished bevels and consistent soft top-left lighting. Remove straight patch-grid tonal jumps; do not replace them with cloud stains, mottling, micro-fractures, grain, blur or oversharpening. Reference 2 is the approved Daoist Q-style rendering and material finish only: match the rounded fullness, warm clean gold and ivory, never copy UI, typography or character content. Reference 3 is a native clean ivory material crop only, never a source to stretch into production pixels. Return only the clean repaired square artwork, native detail throughout, no guide marks or framing. Use the highest-quality host-managed built-in image route available; model and quality are not explicit submitted parameters.",
+    "referenced_image_paths": [
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/continuation_20260928T081700Z/qa-c07/priority-cross-x3072-y1024.png",
+      "E:/work/image/designs/gameplay-ui/04-guild.png",
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/next_tile_r08_c08/correction-20260923T114016880544Z/native-ivory-material-reference.png"
+    ]
+  },
+  "configSnapshot": "../config.snapshot.json",
+  "sourceCandidateSha256": "7e60bc705c1b750cad18bffa9f486f7be680835c1ee3bf0f692f0202325699e6",
+  "cropLTRB": [
+    2445,
+    397,
+    3699,
+    1651
+  ],
+  "desiredNativePixels": [
+    1254,
+    1254
+  ],
+  "submittedModel": null,
+  "submittedQuality": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "prepared_not_submitted"
+}

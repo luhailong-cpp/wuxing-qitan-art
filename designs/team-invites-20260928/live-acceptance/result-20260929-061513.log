@@ -1,0 +1,27 @@
+2026-09-29T06:15:14.701-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T06:15:14.882-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 06:15:14 Connected to 127.0.0.1:10000
+2026-09-29T06:15:15.593-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2210, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026-09-29T06:15:15.593-0400	INFO	robot/team_invites_acceptance.go:84	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_752e2e684f726c61_a", "player_id": 2210, "zone": 1}
+2026-09-29T06:15:15.645-0400	INFO	robot/team_invites_acceptance.go:93	TEAM_INVITES_RUNTIME_LEVEL_OK	{"player_id": 2210, "level": 1}
+2026/09/29 06:15:19 Connected to 127.0.0.1:10000
+2026-09-29T06:15:20.361-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2211, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T06:15:20.361-0400	INFO	robot/team_invites_acceptance.go:84	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_752e2e684f726c61_b", "player_id": 2211, "zone": 1}
+2026-09-29T06:15:20.412-0400	INFO	robot/team_invites_acceptance.go:93	TEAM_INVITES_RUNTIME_LEVEL_OK	{"player_id": 2211, "level": 1}
+2026-09-29T06:15:27.823-0400	INFO	robot/team_invites_acceptance.go:137	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2210, "friend": 2211, "name": "道友hb52sj", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:15:28.815-0400	INFO	robot/team_invites_acceptance.go:137	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2211, "friend": 2210, "name": "道友84z13z", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:15:40.425-0400	INFO	robot/team_invites_acceptance.go:277	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2211, "query": "2211", "pages": 6, "name": "道友hb52sj", "cached_level": 0, "runtime_level": 1}
+2026-09-29T06:15:53.028-0400	INFO	robot/team_invites_acceptance.go:277	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2211, "query": "道友hb52sj", "pages": 6, "name": "道友hb52sj", "cached_level": 0, "runtime_level": 1}
+2026-09-29T06:15:57.329-0400	INFO	robot/team_invites_acceptance.go:170	TEAM_INVITES_INVITE_PUSH_OK	{"team_id": 74004670217781248, "inviter": 2210, "invitee": 2211}
+2026-09-29T06:15:59.480-0400	INFO	robot/team_invites_acceptance.go:189	TEAM_INVITES_OPTIONAL_TEAM_NAME_UNDEPLOYED	{"member_id": 2210}
+2026-09-29T06:15:59.480-0400	INFO	robot/team_invites_acceptance.go:189	TEAM_INVITES_OPTIONAL_TEAM_NAME_UNDEPLOYED	{"member_id": 2211}
+2026-09-29T06:15:59.480-0400	INFO	robot/team_invites_acceptance.go:192	TEAM_INVITES_ACCEPT_OK	{"viewer": 2210, "team_id": 74004670217781248, "member_count": 2}
+2026-09-29T06:16:01.631-0400	INFO	robot/team_invites_acceptance.go:189	TEAM_INVITES_OPTIONAL_TEAM_NAME_UNDEPLOYED	{"member_id": 2210}
+2026-09-29T06:16:01.631-0400	INFO	robot/team_invites_acceptance.go:189	TEAM_INVITES_OPTIONAL_TEAM_NAME_UNDEPLOYED	{"member_id": 2211}
+2026-09-29T06:16:01.631-0400	INFO	robot/team_invites_acceptance.go:192	TEAM_INVITES_ACCEPT_OK	{"viewer": 2211, "team_id": 74004670217781248, "member_count": 2}
+2026/09/29 06:16:01 Write skipped: no active connection
+2026/09/29 06:16:01 Connection closed cleanly
+2026-09-29T06:16:16.385-0400	INFO	robot/team_invites_acceptance.go:246	TEAM_INVITES_OFFLINE_OK	{"player_id": 2211}
+2026/09/29 06:16:18 Write skipped: no active connection
+2026/09/29 06:16:18 Connection closed cleanly
+2026-09-29T06:16:18.536-0400	INFO	robot/team_invites_acceptance.go:75	TEAM_INVITES_ACCEPTANCE_OK	{"account_prefix": "robot_tinv_752e2e684f726c61", "players": 2}

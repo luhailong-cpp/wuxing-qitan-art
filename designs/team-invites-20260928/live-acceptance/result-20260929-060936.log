@@ -1,0 +1,19 @@
+2026-09-29T06:09:36.748-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T06:09:37.031-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 06:09:37 Connected to 127.0.0.1:10000
+2026-09-29T06:09:37.690-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2206, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026-09-29T06:09:37.690-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_35ed11bb133c6e53_a", "player_id": 2206, "zone": 1}
+2026/09/29 06:09:39 Connected to 127.0.0.1:10000
+2026-09-29T06:09:40.595-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2207, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T06:09:40.595-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_35ed11bb133c6e53_b", "player_id": 2207, "zone": 1}
+2026-09-29T06:09:45.955-0400	INFO	robot/team_invites_acceptance.go:123	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2206, "friend": 2207, "name": "道友fzu6yh", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:09:46.947-0400	INFO	robot/team_invites_acceptance.go:123	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2207, "friend": 2206, "name": "道友rryida", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:09:56.458-0400	INFO	robot/team_invites_acceptance.go:258	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2207, "query": "2207", "pages": 5, "name": "道友fzu6yh"}
+2026/09/29 06:10:09 Connection closed cleanly
+2026/09/29 06:10:09 Write skipped: no active connection
+2026/09/29 06:10:09 Connection closed cleanly
+2026-09-29T06:10:09.111-0400	ERROR	robot/main.go:187	TEAM_INVITES_ACCEPTANCE_FAIL	{"error": "在线目录与好友资料不一致: candidate_player_id:2207  is_online:true  last_active_ms:1790676580352  name:\"道友fzu6yh\"  level:1  class_id:1  gender:1  zone_id:1"}
+main.main
+	E:/work/xuanming-server-mmo/robot/main.go:187
+runtime.main
+	C:/Users/luyua/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.5.windows-amd64/src/runtime/proc.go:290

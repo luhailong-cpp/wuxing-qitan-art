@@ -1,0 +1,78 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 125476)
+VBCSCompiler prewarm took 31.00 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 31932 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T12:47:39Z
+[Licensing::IpcConnector] Channel LicenseClient-luyua doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 121180)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-luyua" at "2026-10-08T12:47:41.3022065Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 121180, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              7cf566a6e2974bcaad572783adcc3853
+  Correlation Id:          733aaca1ab2901357f6ef0cd7e540886
+  External correlation Id: 248158129069871289
+  Machine Id:              M2B/yAY5ulraeWIcwlJsiU0qhCs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-luyua" (connect: 1.29s, validation: 0.51s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-luyua-notifications" at "2026-10-08T12:47:41.9221704Z"
+[Licensing::Module] Connected to LicensingClient (PId: 121180, launch time: 0.07, total connection time: 1.91s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully updated license, isAsync: False, time: 0.08
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Module] Error: 'com.unity.editor.ui' was not found.
+[Licensing::Module] Licensing Background thread has ended after 2.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectPath
+E:/work/mmorpg-client
+-logFile
+E:/work/image/designs/equipment-ui-20261008/validation/unity-editor.log
+Successfully changed project path to: E:/work/mmorpg-client
+E:/work/mmorpg-client
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+No valid Unity Editor license found. Please activate your license.

@@ -1,0 +1,40 @@
+{
+  "file": "C:\\Users\\luyua\\.codex\\generated_images\\01a0ec97-0b47-7953-87d8-5d9e0e3b6cfe\\exec-bbe3e181-a295-4539-b077-ef23cc5c1731.png",
+  "sha256": "be1ec5da5d45c40815b37598ce05ef891a3880898d8aef56b37f0f46fa027f36",
+  "width": 724,
+  "height": 2172,
+  "format": "PNG",
+  "generatedAt": null,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-09-29",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed tool does not disclose model or quality.",
+  "evidence": "c07-x1024-strip.tool-response.json",
+  "prompt": "c07-x1024-strip.request.json",
+  "status": "rejected_insufficient_native_dimensions",
+  "requiredPixels": [
+    1280,
+    3840
+  ],
+  "localResizingPerformed": false,
+  "formalAccepted": false
+}

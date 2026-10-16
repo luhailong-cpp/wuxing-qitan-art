@@ -1,0 +1,14 @@
+{{.IncludeBegin}}{{.EventHandlerHeaderFileName}}{{.IncludeEndLine}}
+{{.CppIncludeData}}
+
+void RegisterNodeEvents() { EventHandler::Register(); }
+
+void EventHandler::Register()
+{
+{{.RegisterData}}
+}
+
+void EventHandler::UnRegister()
+{
+{{.UnRegisterData}}
+}

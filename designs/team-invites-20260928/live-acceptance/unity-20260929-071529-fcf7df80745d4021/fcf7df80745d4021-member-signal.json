@@ -1,0 +1,13 @@
+{
+    "run": "fcf7df80745d4021",
+    "mode": "member",
+    "phase": "failed",
+    "playerId": "2217",
+    "peerId": "2216",
+    "teamId": "0",
+    "sceneId": "63941896849850369",
+    "error": "Peer failed: Evidence capture: No real screen frame.",
+    "utc": "2026-09-29T11:16:04.4922196Z",
+    "sceneConfigId": 1,
+    "round": 0
+}

@@ -1,0 +1,19 @@
+Running main() from gmock_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AoiDeliveryTest
+[ RUN      ] AoiDeliveryTest.StationaryObserverReceivesNewEntrantWithoutMoving
+[       OK ] AoiDeliveryTest.StationaryObserverReceivesNewEntrantWithoutMoving (3 ms)
+[ RUN      ] AoiDeliveryTest.MovingOutNotifiesBothObservers
+[       OK ] AoiDeliveryTest.MovingOutNotifiesBothObservers (0 ms)
+[ RUN      ] AoiDeliveryTest.HiddenEntrantIsNotBroadcastToObserver
+[       OK ] AoiDeliveryTest.HiddenEntrantIsNotBroadcastToObserver (0 ms)
+[ RUN      ] AoiDeliveryTest.FullObserverDoesNotReceiveRejectedNormalEntrant
+[       OK ] AoiDeliveryTest.FullObserverDoesNotReceiveRejectedNormalEntrant (1 ms)
+[ RUN      ] AoiDeliveryTest.ReversePinnedEntryIsNotDestroyedOnSpatialLeave
+[       OK ] AoiDeliveryTest.ReversePinnedEntryIsNotDestroyedOnSpatialLeave (0 ms)
+[----------] 5 tests from AoiDeliveryTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (8 ms total)
+[  PASSED  ] 5 tests.

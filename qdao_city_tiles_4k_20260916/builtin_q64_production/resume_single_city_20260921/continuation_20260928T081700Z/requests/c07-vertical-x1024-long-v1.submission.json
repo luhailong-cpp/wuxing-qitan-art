@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "request": "c07-vertical-x1024-long-v1.request.json",
+  "hostObservedStartedAtUtc": "2026-09-28 12:57:13 UTC",
+  "purpose": "builtin long strip capability and repair verification",
+  "submittedModel": null,
+  "submittedQuality": null,
+  "submittedSize": null,
+  "status": "submitting"
+}

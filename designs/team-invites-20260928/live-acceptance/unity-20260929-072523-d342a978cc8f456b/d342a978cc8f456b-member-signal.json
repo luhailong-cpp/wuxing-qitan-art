@@ -1,0 +1,13 @@
+{
+    "run": "d342a978cc8f456b",
+    "mode": "member",
+    "phase": "failed",
+    "playerId": "2219",
+    "peerId": "2218",
+    "teamId": "0",
+    "sceneId": "63941896849850369",
+    "error": "Peer failed: Timeout: authoritative pending invitation Online; team=操作太快了，请稍候再试。; directory=同区在线名单已读取完毕。",
+    "utc": "2026-09-29T11:27:16.5809098Z",
+    "sceneConfigId": 1,
+    "round": 2
+}

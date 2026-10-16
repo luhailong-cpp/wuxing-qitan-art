@@ -1,0 +1,4 @@
+C:\Program Files\dotnet\sdk\10.0.400\NuGet.targets(782,5): error : 由于未授权访问权限，因此未能读取 NuGet.Config。路径:“C:\Users\luyua\AppData\Roaming\NuGet\NuGet.Config”。 [E:\work\image\designs\class-skills-20260928\integration\.client-validation\SkillCoreTests.csproj]
+C:\Program Files\dotnet\sdk\10.0.400\NuGet.targets(782,5): error :   Access to the path 'C:\Users\luyua\AppData\Roaming\NuGet\NuGet.Config' is denied. [E:\work\image\designs\class-skills-20260928\integration\.client-validation\SkillCoreTests.csproj]
+
+生成失败。请修复生成错误并重新运行。

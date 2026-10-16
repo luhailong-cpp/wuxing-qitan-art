@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen",
+  "request": "c07-cross-3072-3072.request.json",
+  "hostObservedStartedAtUtc": "2026-09-28 11:53:57 UTC",
+  "submittedModel": null,
+  "submittedQuality": null,
+  "submittedSize": null,
+  "status": "submitting"
+}

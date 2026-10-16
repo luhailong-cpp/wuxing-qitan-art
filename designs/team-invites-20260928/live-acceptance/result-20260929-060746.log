@@ -1,0 +1,19 @@
+2026-09-29T06:07:46.914-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T06:07:47.007-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 06:07:47 Connected to 127.0.0.1:10000
+2026-09-29T06:07:47.611-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2204, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026-09-29T06:07:47.611-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_bdf5653747cdf341_a", "player_id": 2204, "zone": 1}
+2026/09/29 06:07:48 Connected to 127.0.0.1:10000
+2026-09-29T06:07:49.401-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2205, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T06:07:49.402-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_bdf5653747cdf341_b", "player_id": 2205, "zone": 1}
+2026-09-29T06:07:53.124-0400	INFO	robot/team_invites_acceptance.go:123	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2204, "friend": 2205, "name": "道友ikbcn7", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:07:53.175-0400	INFO	robot/team_invites_acceptance.go:123	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2205, "friend": 2204, "name": "道友u95j0w", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:07:54.225-0400	INFO	robot/team_invites_acceptance.go:258	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2205, "query": "2205", "pages": 1, "name": "道友ikbcn7"}
+2026/09/29 06:07:58 Connection closed cleanly
+2026/09/29 06:07:58 Write skipped: no active connection
+2026/09/29 06:07:58 Connection closed cleanly
+2026-09-29T06:07:58.153-0400	ERROR	robot/main.go:187	TEAM_INVITES_ACCEPTANCE_FAIL	{"error": "gate/路由服信封拒绝 message_id=119 account=robot_tinv_bdf5653747cdf341_a tip=1008(请求未到达 team 业务逻辑:tip=1003 多为路由服没有 TeamNodeService 实例或 match 返回了 gRPC 错误;其它常见为 gate 限流(MessageLimiter 未导出 team 额度)或 gate 不认识该消息号)"}
+main.main
+	E:/work/xuanming-server-mmo/robot/main.go:187
+runtime.main
+	C:/Users/luyua/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.5.windows-amd64/src/runtime/proc.go:290

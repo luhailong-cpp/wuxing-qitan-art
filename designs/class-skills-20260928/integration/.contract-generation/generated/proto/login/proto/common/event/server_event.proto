@@ -1,0 +1,13 @@
+syntax = "proto3";
+option go_package = "login/proto/common/event";
+
+
+
+message OnConnect2Login
+{
+  uint64 entity = 1;
+}
+
+message OnServerStart
+{
+}

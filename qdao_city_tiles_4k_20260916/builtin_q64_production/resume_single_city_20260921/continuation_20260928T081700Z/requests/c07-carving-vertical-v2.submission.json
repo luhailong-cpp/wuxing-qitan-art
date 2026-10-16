@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "request": "c07-carving-vertical-v2.request.json",
+  "hostObservedStartedAtUtc": "2026-09-28 11:19:40 UTC",
+  "parentPatch": "../repairs/c07-cross-3072-1024.native.png",
+  "destinationTile": "r08_c07",
+  "destinationTileCropLTRB": [
+    2445,
+    397,
+    3699,
+    1651
+  ],
+  "submittedModel": null,
+  "submittedQuality": null,
+  "submittedSize": null,
+  "status": "submitting"
+}

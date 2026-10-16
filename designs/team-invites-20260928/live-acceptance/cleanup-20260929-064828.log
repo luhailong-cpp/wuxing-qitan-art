@@ -1,0 +1,13 @@
+2026-09-29T06:48:29.213-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T06:48:29.375-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 06:48:29 Connected to 127.0.0.1:10000
+2026-09-29T06:48:29.955-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2213, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026/09/29 06:48:30 Connected to 127.0.0.1:10000
+2026-09-29T06:48:30.456-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2212, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T06:48:36.308-0400	INFO	robot/team_invites_cleanup.go:56	TEAM_INVITES_UNITY_FRIEND_REMOVED	{"viewer": 2213, "peer": 2212}
+2026-09-29T06:48:36.359-0400	INFO	robot/team_invites_cleanup.go:56	TEAM_INVITES_UNITY_FRIEND_REMOVED	{"viewer": 2212, "peer": 2213}
+2026/09/29 06:48:36 Write skipped: no active connection
+2026/09/29 06:48:36 Connection closed cleanly
+2026/09/29 06:48:36 Write skipped: no active connection
+2026/09/29 06:48:36 Connection closed cleanly
+2026-09-29T06:48:36.359-0400	INFO	robot/team_invites_cleanup.go:34	TEAM_INVITES_UNITY_CLEANUP_OK	{"run": "a07a9cf9d38949ef"}

@@ -1,0 +1,39 @@
+
+  [no-raw-pointer-member] SKIP (infra): neither no_raw_ptr_check.exe nor clang-query found.
+  infra.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\infra.lib
+  [no-raw-pointer-member] SKIP (core): neither no_raw_ptr_check.exe nor clang-query found.
+  core.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\core.lib
+  [no-raw-pointer-member] SKIP (config): neither no_raw_ptr_check.exe nor clang-query found.
+  config.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\config.lib
+  [no-raw-pointer-member] SKIP (rpc): neither no_raw_ptr_check.exe nor clang-query found.
+  rpc.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\rpc.lib
+  [no-raw-pointer-member] SKIP (modules): neither no_raw_ptr_check.exe nor clang-query found.
+  modules.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\modules.lib
+  [no-raw-pointer-member] SKIP (proto): neither no_raw_ptr_check.exe nor clang-query found.
+  proto.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\proto.lib
+  [no-raw-pointer-member] SKIP (thread_context): neither no_raw_ptr_check.exe nor clang-query found.
+  thread_context.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\thread_context.lib
+  [no-raw-pointer-member] SKIP (table): neither no_raw_ptr_check.exe nor clang-query found.
+  table.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\table.lib
+  [no-raw-pointer-member] SKIP (grpc_client): neither no_raw_ptr_check.exe nor clang-query found.
+  grpc_client.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\grpc_client.lib
+  muduo.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\muduo.lib
+  [no-raw-pointer-member] SKIP (proto_helpers): neither no_raw_ptr_check.exe nor clang-query found.
+  proto_helpers.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\proto_helpers.lib
+  [no-raw-pointer-member] SKIP (session): neither no_raw_ptr_check.exe nor clang-query found.
+  session.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\session.lib
+  third_party.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\third_party.lib
+  [no-raw-pointer-member] SKIP (gate): neither no_raw_ptr_check.exe nor clang-query found.
+  session_manager.cpp
+  gate.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\gate.lib
+  [no-raw-pointer-member] SKIP (battle): neither no_raw_ptr_check.exe nor clang-query found.
+  battle_table_fingerprint.cpp
+  table_battle_data_provider.cpp
+  turn_battle_engine.cpp
+  battle.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\battle.lib
+  [no-raw-pointer-member] SKIP (scene): neither no_raw_ptr_check.exe nor clang-query found.
+  scene.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\scene.lib
+  [no-raw-pointer-member] SKIP (scene): neither no_raw_ptr_check.exe nor clang-query found.
+     Creating library ../../../build/cpp/nodes/scene.lib and object ../../../build/cpp/nodes/scene.exp
+  scene.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\build\cpp\nodes\scene.exe
+

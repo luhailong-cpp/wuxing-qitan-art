@@ -1,0 +1,91 @@
+
+  aoi_delivery_test.cpp
+  aoi.cpp
+  grid.cpp
+  interest.cpp
+  view.cpp
+  ecs_context.cpp
+  stat.cpp
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\map.h(708,16): warning C4244: “参数”: 从“uintptr_t”转换到“uint32_t”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/view.cpp”)
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\map.h(708,16): warning C4244: “参数”: 从“uintptr_t”转换到“uint32_t”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/grid.cpp”)
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\map.h(708,16): warning C4244: “参数”: 从“uintptr_t”转换到“uint32_t”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/aoi.cpp”)
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1): warning C4018: '>=': 有符号/无符号不匹配 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/engine/core/utils/stat/stat.cpp”)
+      E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\micro_string.h(78,7):
+          查看对正在编译的函数 模板 实例化“const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)”的引用
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1): warning C4018: '>=': 有符号/无符号不匹配 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/grid.cpp”)
+      E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\micro_string.h(78,7):
+          查看对正在编译的函数 模板 实例化“const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)”的引用
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\map.h(708,16): warning C4244: “参数”: 从“uintptr_t”转换到“uint32_t”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“aoi_delivery_test.cpp”)
+  
+E:\work\xuanming-server-mmo\cpp\libs\services\scene\spatial\system\view.cpp(160,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+E:\work\xuanming-server-mmo\cpp\libs\services\scene\spatial\system\view.cpp(160,21): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+E:\work\xuanming-server-mmo\cpp\libs\services\scene\spatial\system\view.cpp(161,23): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+E:\work\xuanming-server-mmo\cpp\libs\services\scene\spatial\system\view.cpp(161,23): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1): warning C4018: '>=': 有符号/无符号不匹配 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/aoi.cpp”)
+      E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\micro_string.h(78,7):
+          查看对正在编译的函数 模板 实例化“const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)”的引用
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1): warning C4018: '>=': 有符号/无符号不匹配 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“../../../../xuanming-server-mmo/cpp/libs/services/scene/spatial/system/view.cpp”)
+      E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\micro_string.h(78,7):
+          查看对正在编译的函数 模板 实例化“const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)”的引用
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1): warning C4018: '>=': 有符号/无符号不匹配 [E:\work\image\designs\team-invites-20260928\aoi-fix\aoi-delivery-red.vcxproj]
+  (编译源文件“aoi_delivery_test.cpp”)
+      E:\work\xuanming-server-mmo\third_party\grpc\third_party\abseil-cpp\absl\log\internal\check_op.h(428,1):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\work\xuanming-server-mmo\third_party\grpc\third_party\protobuf\src\google\protobuf\micro_string.h(78,7):
+          查看对正在编译的函数 模板 实例化“const char *absl::lts_20250512::log_internal::Check_GEImpl<unsigned int,T>(const T1 &,const T2 &,const char *)”的引用
+          with
+          [
+              T=google::protobuf::internal::MicroString::LargeRepKind,
+              T1=unsigned int,
+              T2=google::protobuf::internal::MicroString::LargeRepKind
+          ]
+  
+  aoi-delivery-red.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\build\red\aoi_delivery_test.exe
+

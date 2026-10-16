@@ -1,0 +1,13 @@
+{
+    "run": "09df64f4c0a24909",
+    "mode": "member",
+    "phase": "failed",
+    "playerId": "2214",
+    "peerId": "2215",
+    "teamId": "0",
+    "sceneId": "63941896849850368",
+    "error": "Timeout: leader sends real friend request; team=; directory=名单已清理，请刷新。",
+    "utc": "2026-09-29T11:06:07.3359694Z",
+    "sceneConfigId": 1,
+    "round": -1
+}

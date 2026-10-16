@@ -1,0 +1,500 @@
+{
+  "createdAtUtc": "2026-09-28T12:37:12.131295+00:00",
+  "initialCandidate": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\r08_c07.png",
+    "sha256": "956cb34c3248f2a7f7336d500e6d2da0fe67a78341ae8bc31bf04e6b7cf42d61"
+  },
+  "tool": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\tools\\mechanical_join.py",
+    "sha256": "d342e30a704e75466fd1814d699ed4acdc16c8abd84cf1a213a638ee83fe4a1b"
+  },
+  "script": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\assemble-cumulative.py",
+    "sha256": "ba280065ebe0f9381bc078e809995034220b557c3b931f1ce356430600f8796f"
+  },
+  "steps": [
+    {
+      "id": "third-x1024-y1024",
+      "parentSha256": "956cb34c3248f2a7f7336d500e6d2da0fe67a78341ae8bc31bf04e6b7cf42d61",
+      "outputTransientPngSha256": "00db19ed6987cb906de3f34976dc35cabc4c670f7cc8065324c18d06c8903276",
+      "operation": "paste already composited native rectangle once; no second feather; disjoint from initial region",
+      "input": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\third-limited4\\joined-native.png",
+        "sha256": "04d3106d8df5e41a5bac104df17f8bbcd16f245c6a0857a8f51182a47e498755"
+      },
+      "sourceRectLTRB": [
+        397,
+        397,
+        1651,
+        1651
+      ]
+    },
+    {
+      "id": "carving-v2",
+      "parentSha256": "00db19ed6987cb906de3f34976dc35cabc4c670f7cc8065324c18d06c8903276",
+      "outputTransientPngSha256": "167ef3b04e5aab4ac3f736ed49027f6cf4b67c2232e4ed56c763eb8e8f9823c4",
+      "input": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-carving-vertical-v2.native.png",
+        "sha256": "0a457007f2340687f0c1dc32f9b9a08ba79b86e514a8c86af8b1a3cc216080a7",
+        "pixels": [
+          1254,
+          1254
+        ]
+      },
+      "sourceRectLTRB": [
+        2445,
+        397,
+        3699,
+        1651
+      ],
+      "contextSource": "immediately previous cumulative candidate, never original baseline",
+      "mechanicalJoin": {
+        "kind": "mechanical_generated_patch_registration",
+        "sourceResampling": "subpixel geometric registration, native dimensions retained",
+        "nativePixels": [
+          1254,
+          1254
+        ],
+        "outputPixels": [
+          1254,
+          1254
+        ],
+        "sourceUpscaledTo4K": false,
+        "underlyingArtworkBlurred": false,
+        "maximumAllowedShiftPixels": 4.0,
+        "actualMaxShiftXY": [
+          4.0,
+          4.0
+        ],
+        "localColorMatching": true,
+        "maxLocalColorCorrectionRGB": [
+          18.0,
+          18.0,
+          18.0
+        ],
+        "edges": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "flowInner": 300.0,
+        "flowFull": 120.0,
+        "toneInner": 330.0,
+        "toneFull": 150.0,
+        "zeroMaskPixelsUnchanged": true,
+        "nativeInteriorPixelsUnchanged": true,
+        "preservedInteriorPixelCount": 352836,
+        "visualAcceptanceRequiresInspection": true
+      },
+      "changedPixelCount": 1266148,
+      "outsideRectangleUnchanged": true,
+      "singleCompositeMask": {
+        "zeroUntilDistance": 32,
+        "fullAtDistance": 144,
+        "curve": "smoothstep",
+        "compositePassCount": 1
+      }
+    },
+    {
+      "id": "fourth-x2048-y2048",
+      "parentSha256": "167ef3b04e5aab4ac3f736ed49027f6cf4b67c2232e4ed56c763eb8e8f9823c4",
+      "outputTransientPngSha256": "ed9e16fb0f1602f1c61abd78347113707587dd93bfd869e94235f13bb30e988a",
+      "input": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-2048-2048.native.png",
+        "sha256": "8719a5bc4b8d364c67527f07dd58ad0c040be9af0e5ac8f4cb377ebe4b35bc13",
+        "pixels": [
+          1254,
+          1254
+        ]
+      },
+      "sourceRectLTRB": [
+        1421,
+        1421,
+        2675,
+        2675
+      ],
+      "contextSource": "immediately previous cumulative candidate, never original baseline",
+      "mechanicalJoin": {
+        "kind": "mechanical_generated_patch_registration",
+        "sourceResampling": "subpixel geometric registration, native dimensions retained",
+        "nativePixels": [
+          1254,
+          1254
+        ],
+        "outputPixels": [
+          1254,
+          1254
+        ],
+        "sourceUpscaledTo4K": false,
+        "underlyingArtworkBlurred": false,
+        "maximumAllowedShiftPixels": 4.0,
+        "actualMaxShiftXY": [
+          4.0,
+          4.0
+        ],
+        "localColorMatching": true,
+        "maxLocalColorCorrectionRGB": [
+          15.545356750488281,
+          13.568726539611816,
+          14.817005157470703
+        ],
+        "edges": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "flowInner": 300.0,
+        "flowFull": 120.0,
+        "toneInner": 330.0,
+        "toneFull": 150.0,
+        "zeroMaskPixelsUnchanged": true,
+        "nativeInteriorPixelsUnchanged": true,
+        "preservedInteriorPixelCount": 352836,
+        "visualAcceptanceRequiresInspection": true
+      },
+      "changedPixelCount": 1261978,
+      "outsideRectangleUnchanged": true,
+      "singleCompositeMask": {
+        "zeroUntilDistance": 32,
+        "fullAtDistance": 144,
+        "curve": "smoothstep",
+        "compositePassCount": 1
+      }
+    },
+    {
+      "id": "fifth-x3072-y3072",
+      "parentSha256": "ed9e16fb0f1602f1c61abd78347113707587dd93bfd869e94235f13bb30e988a",
+      "outputTransientPngSha256": "21eac9a44c5638e6854e9d0cc2711319157aee6eb1cfda46f2716b2b4e9b250a",
+      "input": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-3072-3072.native.png",
+        "sha256": "2bcd401d19987daeedd3cfc595ecad023f89a53bf04c3154ef4e312ccfe3bf3c",
+        "pixels": [
+          1254,
+          1254
+        ]
+      },
+      "sourceRectLTRB": [
+        2445,
+        2445,
+        3699,
+        3699
+      ],
+      "contextSource": "immediately previous cumulative candidate, never original baseline",
+      "mechanicalJoin": {
+        "kind": "mechanical_generated_patch_registration",
+        "sourceResampling": "subpixel geometric registration, native dimensions retained",
+        "nativePixels": [
+          1254,
+          1254
+        ],
+        "outputPixels": [
+          1254,
+          1254
+        ],
+        "sourceUpscaledTo4K": false,
+        "underlyingArtworkBlurred": false,
+        "maximumAllowedShiftPixels": 4.0,
+        "actualMaxShiftXY": [
+          4.0,
+          4.0
+        ],
+        "localColorMatching": true,
+        "maxLocalColorCorrectionRGB": [
+          18.0,
+          18.0,
+          15.561100006103516
+        ],
+        "edges": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "flowInner": 300.0,
+        "flowFull": 120.0,
+        "toneInner": 330.0,
+        "toneFull": 150.0,
+        "zeroMaskPixelsUnchanged": true,
+        "nativeInteriorPixelsUnchanged": true,
+        "preservedInteriorPixelCount": 352836,
+        "visualAcceptanceRequiresInspection": true
+      },
+      "changedPixelCount": 1244298,
+      "outsideRectangleUnchanged": true,
+      "singleCompositeMask": {
+        "zeroUntilDistance": 32,
+        "fullAtDistance": 144,
+        "curve": "smoothstep",
+        "compositePassCount": 1
+      }
+    }
+  ],
+  "candidate": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\r08_c07.png",
+    "sha256": "21eac9a44c5638e6854e9d0cc2711319157aee6eb1cfda46f2716b2b4e9b250a",
+    "pixels": [
+      4096,
+      4096
+    ]
+  },
+  "qaBoards": [
+    {
+      "id": "first",
+      "rectLTRB": [
+        1421,
+        2445,
+        2675,
+        3699
+      ],
+      "context": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\first-final-context.png",
+        "sha256": "0e61acc2b761636d121ce0f101b0329063b0f9bed57b55cfd9abe05ce5ef9c11"
+      },
+      "topBottom": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\first-top-bottom.png",
+        "sha256": "d9dba34e8b56d075e55f580e6667a1730a0843f66ede235313207b7cfa6d3b34",
+        "sourceRects": [
+          [
+            1380,
+            2400,
+            2716,
+            2790
+          ],
+          [
+            1380,
+            3340,
+            2716,
+            3740
+          ]
+        ]
+      },
+      "leftRight": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\first-left-right.png",
+        "sha256": "da0683a1332663a8adc5f887528743931414cb138943fa8920ec24120e56a06b",
+        "sourceRects": [
+          [
+            1380,
+            2400,
+            1770,
+            3740
+          ],
+          [
+            2325,
+            2400,
+            2716,
+            3740
+          ]
+        ]
+      },
+      "allSourcePixelsUnscaled": true
+    },
+    {
+      "id": "third",
+      "rectLTRB": [
+        397,
+        397,
+        1651,
+        1651
+      ],
+      "context": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\third-final-context.png",
+        "sha256": "150915bc346ec349b4fbdbf230ba931c7da722a9d3f9f3bb574d9efa234e5beb"
+      },
+      "topBottom": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\third-top-bottom.png",
+        "sha256": "4aaec923e3c0cfe81e034c9e2e6017fccd2a11969d332e8877e74b337954d320",
+        "sourceRects": [
+          [
+            356,
+            352,
+            1692,
+            742
+          ],
+          [
+            356,
+            1292,
+            1692,
+            1692
+          ]
+        ]
+      },
+      "leftRight": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\third-left-right.png",
+        "sha256": "def1c2d66522d77b5718df692d544f7115baf20daee968647e64248230b2e303",
+        "sourceRects": [
+          [
+            356,
+            352,
+            746,
+            1692
+          ],
+          [
+            1301,
+            352,
+            1692,
+            1692
+          ]
+        ]
+      },
+      "allSourcePixelsUnscaled": true
+    },
+    {
+      "id": "carving-v2",
+      "rectLTRB": [
+        2445,
+        397,
+        3699,
+        1651
+      ],
+      "context": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\carving-v2-final-context.png",
+        "sha256": "d4f1ab9c796cd69b6b064a613dda10106bcfa44dc9a659247d7586c8a06ae658"
+      },
+      "topBottom": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\carving-v2-top-bottom.png",
+        "sha256": "b0686e454fab4e1fd1c9dedecfe82bc901984bbb793806873357c53690dcd495",
+        "sourceRects": [
+          [
+            2404,
+            352,
+            3740,
+            742
+          ],
+          [
+            2404,
+            1292,
+            3740,
+            1692
+          ]
+        ]
+      },
+      "leftRight": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\carving-v2-left-right.png",
+        "sha256": "31b41472257122e89f2a34574b1d16c303e8259433201feeaf00392746eb1314",
+        "sourceRects": [
+          [
+            2404,
+            352,
+            2794,
+            1692
+          ],
+          [
+            3349,
+            352,
+            3740,
+            1692
+          ]
+        ]
+      },
+      "allSourcePixelsUnscaled": true
+    },
+    {
+      "id": "fourth-x2048-y2048",
+      "rectLTRB": [
+        1421,
+        1421,
+        2675,
+        2675
+      ],
+      "context": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fourth-x2048-y2048-final-context.png",
+        "sha256": "7bf84441e6075cd46ba6680f97071715a233b4fa02103eeb924c6387315a6989"
+      },
+      "topBottom": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fourth-x2048-y2048-top-bottom.png",
+        "sha256": "269fdd579fa0bbf1288085bdaad70830a74f7457f25a284b32622e09dd7a1c9e",
+        "sourceRects": [
+          [
+            1380,
+            1376,
+            2716,
+            1766
+          ],
+          [
+            1380,
+            2316,
+            2716,
+            2716
+          ]
+        ]
+      },
+      "leftRight": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fourth-x2048-y2048-left-right.png",
+        "sha256": "280eadc29322c1cae27eef2f5152de1f0392506b86dbf120162edccce53134d0",
+        "sourceRects": [
+          [
+            1380,
+            1376,
+            1770,
+            2716
+          ],
+          [
+            2325,
+            1376,
+            2716,
+            2716
+          ]
+        ]
+      },
+      "allSourcePixelsUnscaled": true
+    },
+    {
+      "id": "fifth-x3072-y3072",
+      "rectLTRB": [
+        2445,
+        2445,
+        3699,
+        3699
+      ],
+      "context": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fifth-x3072-y3072-final-context.png",
+        "sha256": "b2690f33890877cd78e492378ba023e3486a78784ce45f3cd19d4febcf9b549c"
+      },
+      "topBottom": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fifth-x3072-y3072-top-bottom.png",
+        "sha256": "deffc5d2170a3dbd8c7f80abf29249daa91ee6d83a35e00c786d7a567ab1e1c2",
+        "sourceRects": [
+          [
+            2404,
+            2400,
+            3740,
+            2790
+          ],
+          [
+            2404,
+            3340,
+            3740,
+            3740
+          ]
+        ]
+      },
+      "leftRight": {
+        "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\cumulative-v1\\fifth-x3072-y3072-left-right.png",
+        "sha256": "8a5b40168bac2fa3ccf4d8fe12d162ba33cdd1cd797a3ebd7f881ad91a08c282",
+        "sourceRects": [
+          [
+            2404,
+            2400,
+            2794,
+            3740
+          ],
+          [
+            3349,
+            2400,
+            3740,
+            3740
+          ]
+        ]
+      },
+      "allSourcePixelsUnscaled": true
+    }
+  ],
+  "status": "working_candidate_pending_local_review_not_selected",
+  "formalArtAcceptancePassed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sharedRecordsModified": false,
+  "retention": "Intermediate cumulative PNG bytes were only held in memory; hashes identify deterministic PNG encoding at each step. Original native returns remain intact."
+}

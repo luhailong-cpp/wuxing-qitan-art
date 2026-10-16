@@ -1,0 +1,555 @@
+﻿生成启动时间为 10/1/2026 11:20:55 AM。
+日志记录详细程度设置为: Normal。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\game.sln”在节点 1 上(cpp\libs\services\gate;cpp\libs\services\battle;cpp\nodes\scene 个目标)。
+ValidateSolutionConfiguration:
+  正在生成解决方案配置“Debug|x64”。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\game.sln”(1)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2) (默认目标)。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj.metaproj”(3) (默认目标)。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj.metaproj”(3)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\infra\infra.vcxproj”(4) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\infra" -ProjectName "infra" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\infra\infra.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (infra): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  infra.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\infra.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/infra/infra.tlog\infra.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\infra\infra.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj.metaproj”(3)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj”(5) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core" -ProjectName "core" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (core): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  core.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\core.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/core/core.tlog\core.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\core\core.vcxproj.metaproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\config\config.vcxproj”(6) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\config" -ProjectName "config" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\config\config.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (config): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  config.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\config.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/config/config.tlog\config.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\config\config.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\rpc\rpc.vcxproj”(7) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\rpc" -ProjectName "rpc" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\rpc\rpc.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (rpc): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  rpc.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\rpc.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\rpc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\rpc\rpc.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\modules\modules.vcxproj”(8) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\modules" -ProjectName "modules" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\modules\modules.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (modules): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  modules.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\modules.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/modules/modules.tlog\modules.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\modules\modules.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto\proto.vcxproj”(9) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/proto/proto.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/proto/proto.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto" -ProjectName "proto" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto\proto.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (proto): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  proto.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\proto.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/proto/proto.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/proto/proto.tlog\proto.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto\proto.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\thread_context\thread_context.vcxproj”(10) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\thread_context" -ProjectName "thread_context" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\thread_context\thread_context.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (thread_context): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  thread_context.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\thread_context.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\thread_context.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\thread_context\thread_context.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\table\table.vcxproj”(11) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/table/table.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/table/table.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\table" -ProjectName "table" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\table\table.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (table): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  table.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\table.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/table/table.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/table/table.tlog\table.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\table\table.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\grpc_client\grpc_client.vcxproj”(12) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\grpc_client" -ProjectName "grpc_client" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\grpc_client\grpc_client.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (grpc_client): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  grpc_client.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\grpc_client.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\grpc_client.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\grpc_client\grpc_client.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\muduo_windows\muduo.vcxproj”(13) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”执行 Touch 任务。
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  muduo.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\muduo.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\muduo.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\muduo_windows\muduo.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto_helpers\proto_helpers.vcxproj”(14) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto_helpers" -ProjectName "proto_helpers" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto_helpers\proto_helpers.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (proto_helpers): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  proto_helpers.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\proto_helpers.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\proto_helpers.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\generated\proto_helpers\proto_helpers.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\session\session.vcxproj”(15) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\session" -ProjectName "session" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\session\session.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (session): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  session.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\session.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/session/session.tlog\session.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\engine\session\session.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\third_party\third_party.vcxproj”(16) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”执行 Touch 任务。
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  third_party.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\third_party.lib
+FinalizeBuildStatus:
+  正在删除文件“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”。
+  正在对“../bin/vsout/third_party/third_party.tlog\third_party.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\third_party\third_party.vcxproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj”(17) (默认目标)。
+PrepareForBuild:
+  正在创建目录“../../../../build/cpp/intermediate/lib/gate/”。
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+  正在创建目录“../../../../build/cpp/intermediate/lib/gate/gate.tlog\”。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/gate/gate.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/gate/gate.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate" -ProjectName "gate" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (gate): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+MakeDirsForCl:
+  正在创建目录“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\..\..\..\..\build\cpp\intermediate\lib\gate\session\manager”。
+  正在创建目录“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\..\..\..\..\build\cpp\intermediate\lib\gate\microsoft\STL”。
+SetModuleDependencies:
+  正在创建目录“../../../../build/cpp/intermediate/lib/gate/gate_MD.tlog\”。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../../engine/infran/ /I"../../../../third_party/librdkafka/src-cpp/" /I../../ /I../../engine/core/ /I../../engine/config/ /I../../engine/ /I../../../../third_party/recastnavigation/ /I../../../../third_party/hexagons_grids/ /I../../../../third_party/ue5navmesh\Public /I../../engine/infra/ /I../../../../third_party/xxhash/ /I../../engine/modules/ /I../../../../third_party/ue5navmesh/Public/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D _TCHAR_DEFINED /D UNICODE /D NOMINMAX /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/gate/session\manager\\" /Fd"../../../../lib/gate.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 session\manager\session_manager.cpp
+  session_manager.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/gate.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/gate/session\manager\session_manager.obj
+  gate.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\gate.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/gate/gate.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/gate/gate.tlog\gate.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\gate\gate.vcxproj.metaproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\game.sln”(1)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj.metaproj”(18) (默认目标)。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj.metaproj”(18)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj”(19) (默认目标)。
+PrepareForBuild:
+  正在创建目录“../../../../build/cpp/intermediate/lib/battle/”。
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+  正在创建目录“../../../../build/cpp/intermediate/lib/battle/battle.tlog\”。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/battle/battle.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/battle/battle.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle" -ProjectName "battle" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (battle): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+MakeDirsForCl:
+  正在创建目录“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\..\..\..\..\build\cpp\intermediate\lib\battle\data”。
+  正在创建目录“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\..\..\..\..\build\cpp\intermediate\lib\battle\system”。
+  正在创建目录“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\..\..\..\..\build\cpp\intermediate\lib\battle\microsoft\STL”。
+SetModuleDependencies:
+  正在创建目录“../../../../build/cpp/intermediate/lib/battle/battle_MD.tlog\”。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\third_party\grpc\third_party\utf8_range\\" /I./ /I../../../generated/ /I../../ /I../../engine/ /I../../engine/core/ /I../../engine/config/ /I../../engine/modules/ /I../../engine/infra/ /I../../../../third_party/ /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../../third_party/grpc/third_party/protobuf/src/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/xxhash/ /I"../../../../third_party/librdkafka/src-cpp/" /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D _TCHAR_DEFINED /D UNICODE /D NOMINMAX /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/battle/data\\" /Fd"../../../../lib/battle.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 data\battle_table_fingerprint.cpp data\table_battle_data_provider.cpp
+  battle_table_fingerprint.cpp
+  table_battle_data_provider.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\third_party\grpc\third_party\utf8_range\\" /I./ /I../../../generated/ /I../../ /I../../engine/ /I../../engine/core/ /I../../engine/config/ /I../../engine/modules/ /I../../engine/infra/ /I../../../../third_party/ /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../../third_party/grpc/third_party/protobuf/src/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/xxhash/ /I"../../../../third_party/librdkafka/src-cpp/" /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D _TCHAR_DEFINED /D UNICODE /D NOMINMAX /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/battle/system\\" /Fd"../../../../lib/battle.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 system\turn_battle_engine.cpp
+  turn_battle_engine.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/battle.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/battle/data\battle_table_fingerprint.obj
+  ../../../../build/cpp/intermediate/lib/battle/data\table_battle_data_provider.obj
+  ../../../../build/cpp/intermediate/lib/battle/system\turn_battle_engine.obj
+  battle.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\battle.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/battle/battle.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/battle/battle.tlog\battle.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\battle\battle.vcxproj.metaproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\game.sln”(1)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj.metaproj”(20) (默认目标)。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj.metaproj”(20)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj.metaproj”(21) (默认目标)。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj.metaproj”(21)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj”(22) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/scene/scene.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/scene/scene.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene" -ProjectName "scene" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (scene): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  正在将文件从“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\build\cpp\intermediate\lib\scene\scene.compile.pdb”复制到“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\scene.pdb”。
+  scene.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\lib\scene.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/scene/scene.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/scene/scene.tlog\scene.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\libs\services\scene\scene.vcxproj.metaproj”(默认目标)的操作。
+项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj.metaproj”(20)正在节点 1 上生成“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj”(23) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在对“../../../build/cpp/intermediate/nodes/scene/scene.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene" -ProjectName "scene" -ProjectFile "E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (scene): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Link:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"../../../build/cpp/nodes/scene.exe" /INCREMENTAL /ILK:"../../../build/cpp/intermediate/nodes/scene/scene.ilk" /NOLOGO /LIBPATH:../../../third_party/grpc/install_vs2026_dbg/lib/ /LIBPATH:../../../lib/ rdkafka.lib absl_base.lib battle.lib absl_city.lib absl_civil_time.lib absl_cord_internal.lib absl_cord.lib absl_cordz_functions.lib absl_cordz_handle.lib absl_cordz_info.lib absl_cordz_sample_token.lib absl_crc_cord_state.lib absl_crc_cpu_detect.lib absl_crc_internal.lib absl_crc32c.lib absl_debugging_internal.lib absl_decode_rust_punycode.lib absl_demangle_internal.lib absl_demangle_rust.lib absl_die_if_null.lib absl_examine_stack.lib absl_exponential_biased.lib absl_failure_signal_handler.lib absl_flags_commandlineflag_internal.lib absl_flags_commandlineflag.lib absl_flags_config.lib absl_flags_internal.lib absl_flags_marshalling.lib absl_flags_parse.lib absl_flags_private_handle_accessor.lib absl_flags_program_name.lib absl_flags_reflection.lib absl_flags_usage_internal.lib absl_flags_usage.lib absl_graphcycles_internal.lib absl_hash.lib absl_hashtablez_sampler.lib absl_int128.lib absl_kernel_timeout_internal.lib absl_leak_check.lib absl_log_flags.lib absl_log_globals.lib absl_log_initialize.lib absl_log_internal_check_op.lib absl_log_internal_conditions.lib absl_log_internal_fnmatch.lib absl_log_internal_format.lib absl_log_internal_globals.lib absl_log_internal_log_sink_set.lib absl_log_internal_message.lib absl_log_internal_nullguard.lib absl_log_internal_proto.lib absl_log_internal_structured_proto.lib absl_log_severity.lib absl_log_sink.lib absl_low_level_hash.lib absl_malloc_internal.lib absl_periodic_sampler.lib absl_poison.lib absl_random_distributions.lib absl_random_internal_distribution_test_util.lib absl_random_internal_entropy_pool.lib absl_random_internal_platform.lib absl_random_internal_randen_hwaes_impl.lib absl_random_internal_randen_hwaes.lib absl_random_internal_randen_slow.lib absl_random_internal_randen.lib absl_random_internal_seed_material.lib absl_random_seed_gen_exception.lib absl_random_seed_sequences.lib absl_raw_hash_set.lib absl_raw_logging_internal.lib absl_scoped_set_env.lib absl_spinlock_wait.lib absl_stacktrace.lib absl_status.lib absl_statusor.lib absl_str_format_internal.lib absl_strerror.lib absl_string_view.lib absl_strings_internal.lib absl_strings.lib absl_symbolize.lib absl_synchronization.lib absl_throw_delegate.lib absl_time_zone.lib absl_time.lib absl_tracing_internal.lib absl_utf8_for_code_point.lib absl_vlog_config_internal.lib address_sorting.lib cares.lib config.lib core.lib crypto.lib gate.lib gpr.lib grpc++.lib grpc++_alts.lib grpc++_error_details.lib grpc++_reflection.lib grpc++_unsecure.lib grpc.lib grpcpp_channelz.lib grpc_authorization_provider.lib grpc_client.lib grpc_plugin_support.lib grpc_unsecure.lib hiredisd.lib infra.lib "libprotobuf-lited.lib" libprotobufd.lib libprotocd.lib libupbd.lib libutf8_range.lib libutf8_validity.lib modules.lib muduo.lib proto.lib proto_helpers.lib re2.lib rpc.lib scene.lib session.lib ssl.lib table.lib third_party.lib thread_context.lib upb_base_lib.lib upb_hash_lib.lib upb_json_lib.lib upb_lex_lib.lib upb_mem_lib.lib upb_message_lib.lib upb_mini_descriptor_lib.lib upb_mini_table_lib.lib upb_reflection_lib.lib upb_textformat_lib.lib upb_wire_lib.lib utf8_range_lib.lib "yaml-cppd.lib" zlibd.lib zlibstaticd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"../../../build/cpp/nodes/scene.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../build/cpp/nodes/scene.lib" /MACHINE:X64 /DEBUG:FULL /WHOLEARCHIVE:../../../third_party/grpc/install_vs2026_dbg/lib/hiredisd.lib /WHOLEARCHIVE:../../../third_party/grpc/install_vs2026_dbg/lib/yaml-cppd.lib /ignore:4099 ../../../build/cpp/intermediate/nodes/scene/agones\agones_rest_client.obj
+  ../../../build/cpp/intermediate/nodes/scene/agones\agones_scene_lifecycle.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\scene_kafka_command_router.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\actor_combat_state_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\actor_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\battle_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\buff_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\combat_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\mission_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\node_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\npc_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\player_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\player_migration_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\scene_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\server_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\skill_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\event\team_event_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_movement_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_currency_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_rollback_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\client_player_common_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_lifecycle_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\s2s_player_scene_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_scene_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_service_interface.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_skill_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_attribute_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_pet_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_state_attribute_sync_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_bag_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_mission_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\player\player_activity_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\scene_admin_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\scene_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\rpc\register_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/handler\grpc\scene_node_service.obj
+  ../../../build/cpp/intermediate/nodes/scene/main.obj
+  ../../../build/cpp/intermediate/nodes/scene/id_segment_bootstrap.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\gate_service_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\scene_manager_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\register_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\player_lifecycle_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\s2s_player_scene_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\player_currency_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\player_rollback_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\player_rpc_response_handler.obj
+  ../../../build/cpp/intermediate/nodes/scene/rpc_replies\player\player_state_attribute_sync_response_handler.obj
+     Creating library ../../../build/cpp/nodes/scene.lib and object ../../../build/cpp/nodes/scene.exp
+  scene.vcxproj -> E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\build\cpp\nodes\scene.exe
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/nodes/scene/scene.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/nodes/scene/scene.tlog\scene.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\cpp\nodes\scene\scene.vcxproj.metaproj”(默认目标)的操作。
+已完成生成项目“E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-source\game.sln”(cpp\libs\services\gate;cpp\libs\services\battle;cpp\nodes\scene 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+E:\work\image\designs\team-invites-20260928\aoi-fix\baseline-build-20261001-112054.log 已写入: FileLogger
+
+已用时间 00:02:29.65

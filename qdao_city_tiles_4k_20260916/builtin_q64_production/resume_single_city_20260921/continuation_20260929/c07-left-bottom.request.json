@@ -1,0 +1,20 @@
+{
+  "payload": {
+    "prompt": "Use the visible first image as the precise edit target. Repair this 1254x1254 pixel game-map crop at its original pixel dimensions and identical framing. It shows warm ivory beveled paving slabs, horizontal gold ornamental channels and a curved rim at the right. The artificial vertical straight color seam at x=627 is a stitching error: remove it completely from top to bottom, especially where it cuts across the two horizontal gold bands in the lower half. Make the two halves of each affected ivory slab share one continuous softly shaded surface and reconnect all gold highlights/contours without a step. Preserve all real slab joints, bevel thicknesses, exact slab shapes, camera and feature endpoints at the borders. Keep the top and bottom endpoint geometry registered. Do not add any new joints or ornaments. Image 2 is solely the approved bright clean rounded Daoist Q hand-painted art finish reference; never include its words or UI. Ivory must remain warm, clean, smooth and softly dimensional with crisp bevels, no dirty clouds, grain, cracks or blur. Return only the repaired square art, no text or borders. Highest available fidelity.",
+    "referenced_image_paths": [
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/continuation_20260929/c07-left-bottom.context.png",
+      "E:/work/image/designs/gameplay-ui/04-guild.png"
+    ],
+    "transparent_background": false
+  },
+  "preparedAtUtc": "2026-09-29T11:27:46.718Z",
+  "desiredNativePixels": [
+    1254,
+    1254
+  ],
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null
+  }
+}

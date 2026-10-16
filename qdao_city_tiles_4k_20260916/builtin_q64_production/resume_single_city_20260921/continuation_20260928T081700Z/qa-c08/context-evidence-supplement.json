@@ -1,0 +1,43 @@
+{
+  "source": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c08\\correction-20260923T114016880544Z\\local-repair-v1\\masked-result\\r08_c08.png",
+  "sha256": "07981e070d4bff63ba9897cdc639398d7ea782e1ed5be386069725cc13532680",
+  "createdAtUtc": "2026-09-28T10:59:03.026149+00:00",
+  "items": [
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\context-1024-1024.png",
+      "cropLTRB": [
+        397,
+        397,
+        1651,
+        1651
+      ],
+      "sha256": "425ab0b0eabd8e6c06ecce3db3979d613cbdfdb1863edc024d62ec836b3bd7fb"
+    },
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\context-1024-3072.png",
+      "cropLTRB": [
+        397,
+        2445,
+        1651,
+        3699
+      ],
+      "sha256": "2555694840ac1ce7d29a658dd01a18aecc06012d890431213d63f21635976948"
+    },
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\context-3072-3072.png",
+      "cropLTRB": [
+        2445,
+        2445,
+        3699,
+        3699
+      ],
+      "sha256": "e608437592de40cef109dbec9a290254621dadf44f0b080e49e8710d685cdfa4"
+    },
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\overview-not-acceptance.png",
+      "scale": 0.341796875,
+      "sha256": "c91779df1a4df3f17e4e6ffc2f4e44d7a34e9b86ee77cf6ae89f1cd4b6dc1134",
+      "nativeAcceptance": false
+    }
+  ]
+}

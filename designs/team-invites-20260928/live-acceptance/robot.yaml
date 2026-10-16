@@ -1,0 +1,18 @@
+# 独立 overlay 验收程序使用；不会调用原始四账号 team-smoke。
+gateway_addr: "http://127.0.0.1:8081"
+zone_id: 1
+robot_count: 2
+account_fmt: "unused_%04d"
+password: "ENV_REQUIRED"
+table_dir: "E:/work/xuanming-server-mmo/generated/tables"
+action_interval: 3
+report_interval: 5
+mode: "team-smoke"
+auth_type: "password"
+team_smoke:
+  cross_zone: false
+  expect_cross_zone_allowed: false
+  zone_a: 1
+  zone_b: 2
+  battle_config_id: 1
+  follow_scene_config_ids: [2, 3, 1]

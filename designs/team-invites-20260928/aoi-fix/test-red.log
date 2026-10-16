@@ -1,0 +1,36 @@
+Running main() from gmock_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AoiDeliveryTest
+[ RUN      ] AoiDeliveryTest.StationaryObserverReceivesNewEntrantWithoutMoving
+E:\work\image\designs\team-invites-20260928\aoi-fix\aoi_delivery_test.cpp(87): error: Expected equality of these values:
+  CreatesFor(stationary, entrant)
+    Which is: 0
+  1
+既有静止玩家必须收到后来者的 ActorCreate
+
+[  FAILED  ] AoiDeliveryTest.StationaryObserverReceivesNewEntrantWithoutMoving (5 ms)
+[ RUN      ] AoiDeliveryTest.MovingOutNotifiesBothObservers
+E:\work\image\designs\team-invites-20260928\aoi-fix\aoi_delivery_test.cpp(106): error: Expected equality of these values:
+  DestroysFor(stationary, mover)
+    Which is: 0
+  1
+静止观察者也必须清除移出视野的角色
+
+[  FAILED  ] AoiDeliveryTest.MovingOutNotifiesBothObservers (1 ms)
+[ RUN      ] AoiDeliveryTest.HiddenEntrantIsNotBroadcastToObserver
+[       OK ] AoiDeliveryTest.HiddenEntrantIsNotBroadcastToObserver (0 ms)
+[ RUN      ] AoiDeliveryTest.FullObserverDoesNotReceiveRejectedNormalEntrant
+[       OK ] AoiDeliveryTest.FullObserverDoesNotReceiveRejectedNormalEntrant (1 ms)
+[ RUN      ] AoiDeliveryTest.ReversePinnedEntryIsNotDestroyedOnSpatialLeave
+[       OK ] AoiDeliveryTest.ReversePinnedEntryIsNotDestroyedOnSpatialLeave (0 ms)
+[----------] 5 tests from AoiDeliveryTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (9 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] AoiDeliveryTest.StationaryObserverReceivesNewEntrantWithoutMoving
+[  FAILED  ] AoiDeliveryTest.MovingOutNotifiesBothObservers
+
+ 2 FAILED TESTS

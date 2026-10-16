@@ -1,0 +1,548 @@
+﻿生成启动时间为 10/1/2026 9:40:40 AM。
+日志记录详细程度设置为: Normal。
+项目“E:\work\xuanming-server-mmo\game.sln”在节点 1 上(cpp\nodes\scene 个目标)。
+ValidateSolutionConfiguration:
+  正在生成解决方案配置“Debug|x64”。
+项目“E:\work\xuanming-server-mmo\game.sln”(1)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(2) (默认目标)。
+项目“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj.metaproj”(3) (默认目标)。
+项目“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj.metaproj”(3)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\infra\infra.vcxproj”(4) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\engine\infra" -ProjectName "infra" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\engine\infra\infra.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (infra): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I./ /I../../../../third_party/muduo/ /I../../../../third_party/redis/ /I../../../../third_party/redis/deps/ /I../../../../third_party/muduo/contrib/windows/include /I../../../../third_party/grpc/third_party/protobuf/src/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I"../../../../third_party/yaml-cpp/include/" /I../../../../third_party/xxhash/ /I"../../../../third_party/librdkafka/src-cpp/" /I../common/ /I../../../../third_party/zlib/ /I../../../generated/ /I../../../../third_party/ /I../ /I../config/ /I../../ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /D YAML_CPP_STATIC_DEFINE /D _WIN32_WINNT=0x0A00 /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/infra/messaging\kafka\\" /Fd"../../../../lib/infra.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 messaging\kafka\kafka_manager.cpp messaging\kafka\kafka_producer.cpp
+  kafka_manager.cpp
+  kafka_producer.cpp
+  所有输出均为最新。
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/infra.lib" /NOLOGO /MACHINE:X64 "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\ConfImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\ConsumerImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\HandleImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\HeadersImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\KafkaConsumerImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\MessageImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\MetadataImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\ProducerImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\QueueImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\RdKafka.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\TopicImpl.obj"
+  "../../../../build/cpp/intermediate/lib/infra/..\..\..\..\third_party\librdkafka\src-cpp\TopicPartitionImpl.obj"
+  ../../../../build/cpp/intermediate/lib/infra/messaging\kafka\kafka_consumer.obj
+  ../../../../build/cpp/intermediate/lib/infra/messaging\kafka\kafka_manager.obj
+  ../../../../build/cpp/intermediate/lib/infra/messaging\kafka\kafka_producer.obj
+  ../../../../build/cpp/intermediate/lib/infra/storage\redis_client\redis_client.obj
+  infra.vcxproj -> E:\work\xuanming-server-mmo\lib\infra.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/infra/infra.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/infra/infra.tlog\infra.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\infra\infra.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj.metaproj”(3)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj”(5) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\engine\core" -ProjectName "core" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (core): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/network\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 network\game_channel.cpp network\message_statistics.cpp network\network_utils.cpp network\node_message_utils.cpp network\node_utils.cpp network\player_message_utils.cpp network\rpc_server.cc network\traffic_statistics.cpp
+  game_channel.cpp
+  message_statistics.cpp
+  network_utils.cpp
+  node_message_utils.cpp
+  node_utils.cpp
+  player_message_utils.cpp
+  rpc_server.cc
+  traffic_statistics.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/node\system\etcd\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node\system\etcd\etcd_helper.cpp node\system\etcd\etcd_manager.cpp node\system\etcd\etcd_service.cpp
+  etcd_helper.cpp
+  etcd_manager.cpp
+  etcd_service.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/node\system\node\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node\system\node\node.cpp node\system\node\node_allocator.cpp node\system\node\node_connector.cpp node\system\node\node_util.cpp
+  node.cpp
+  node_allocator.cpp
+  node_connector.cpp
+  node_util.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/node\system\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node\system\grpc_call_deadline.cpp node\system\zone_utils.cpp
+  grpc_call_deadline.cpp
+  zone_utils.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/node\system\registration\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node\system\registration\registration_manager.cpp
+  registration_manager.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../....//third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/zlib/ /I../../../../third_party/grpc/include/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I../../../generated/ /I../../../../third_party/grpc/third_party/ /I../../../../third_party/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../../third_party/redis/deps/ /I../../../../third_party/redis/ /I../ /I../infra/ /I"../../../../third_party/librdkafka/src-cpp/" /I../config/ /I../../../generated/grpc_client/ /I../../ /I../../../../third_party/openssl/include/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /FS /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/core/node\system\discovery\\" /Fd"../../../../lib/core.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node\system\discovery\service_discovery_manager.cpp
+  service_discovery_manager.cpp
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/core.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/core/log\system\console_log.obj
+  ../../../../build/cpp/intermediate/lib/core/message_limiter\message_limiter.obj
+  ../../../../build/cpp/intermediate/lib/core/network\codec\codec.obj
+  ../../../../build/cpp/intermediate/lib/core/network\game_channel.obj
+  ../../../../build/cpp/intermediate/lib/core/network\message_statistics.obj
+  ../../../../build/cpp/intermediate/lib/core/network\network_utils.obj
+  ../../../../build/cpp/intermediate/lib/core/network\node_message_utils.obj
+  ../../../../build/cpp/intermediate/lib/core/network\node_utils.obj
+  ../../../../build/cpp/intermediate/lib/core/network\player_message_utils.obj
+  ../../../../build/cpp/intermediate/lib/core/network\process_info.obj
+  ../../../../build/cpp/intermediate/lib/core/network\rpc_server.obj
+  ../../../../build/cpp/intermediate/lib/core/network\traffic_statistics.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\etcd\etcd_helper.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\etcd\etcd_manager.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\etcd\etcd_service.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\node\node.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\node\node_allocator.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\node\node_connector.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\node\node_util.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\grpc_call_deadline.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\zone_utils.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\registration\registration_manager.obj
+  ../../../../build/cpp/intermediate/lib/core/node\system\discovery\service_discovery_manager.obj
+  ../../../../build/cpp/intermediate/lib/core/time\comp\timer_task_boost_comp.obj
+  ../../../../build/cpp/intermediate/lib/core/time\comp\timer_task_comp.obj
+  ../../../../build/cpp/intermediate/lib/core/time\system\time.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\encode\base64.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\encode\sha256.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\file\file2string.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\log\spdlog_file.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\proto\message_util.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\proto\proto_field_checker.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\random\random.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\registry\game_registry.obj
+  ../../../../build/cpp/intermediate/lib/core/utils\stat\stat.obj
+  core.vcxproj -> E:\work\xuanming-server-mmo\lib\core.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/core/core.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/core/core.tlog\core.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\core\core.vcxproj.metaproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6) (默认目标)。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\config\config.vcxproj”(7) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\engine\config" -ProjectName "config" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\engine\config\config.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (config): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../../../third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/redis/deps/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/lua/ /I../../../../third_party/ /I../../../../third_party/zlib/ /I../../../../third_party/spdlog/include/ /I../../../generated/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I"../../../../third_party/yaml-cpp/include/" /I../../../../third_party/xxhash/ /I"../../../../third_party/librdkafka/src-cpp/" /I./ /I../../ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /D YAML_CPP_STATIC_DEFINE /D _WIN32_WINNT=0x0A00 /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/config/" /Fd"../../../../lib/config.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 config.cpp node_config_manager.cpp
+  config.cpp
+  node_config_manager.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/config.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/config/config.obj
+  ../../../../build/cpp/intermediate/lib/config/node_config_manager.obj
+  ../../../../build/cpp/intermediate/lib/config/table_log.obj
+  config.vcxproj -> E:\work\xuanming-server-mmo\lib\config.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/config/config.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/config/config.tlog\config.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\config\config.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\generated\rpc\rpc.vcxproj”(8) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\generated\rpc" -ProjectName "rpc" -ProjectFile "E:\work\xuanming-server-mmo\cpp\generated\rpc\rpc.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (rpc): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../libs/engine/ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/rpc/service_metadata\\" /Fd"../../../lib/rpc.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj service_metadata\rpc_event_registry.cpp
+  rpc_event_registry.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../lib/rpc.lib" /NOLOGO /MACHINE:X64 ../../../build/cpp/intermediate/lib/rpc/service_metadata\rpc_event_registry.obj
+  rpc.vcxproj -> E:\work\xuanming-server-mmo\lib\rpc.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/rpc/rpc.tlog\rpc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\generated\rpc\rpc.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj”(9) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/proto/proto.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/proto/proto.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\generated\proto" -ProjectName "proto" -ProjectFile "E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (proto): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/proto/common\base\\" /Fd"../../../lib/proto.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj common\base\config.pb.cc
+  config.pb.cc
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/proto/guild\\" /Fd"../../../lib/proto.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj guild\guild.grpc.pb.cc guild\guild.pb.cc guild\guild_db.pb.cc guild\guild_internal.grpc.pb.cc guild\guild_internal.pb.cc
+  guild.grpc.pb.cc
+  guild.pb.cc
+  guild_db.pb.cc
+  guild_internal.grpc.pb.cc
+  guild_internal.pb.cc
+\guild\guild_internal.grpc.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.grpc.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+  (编译源文件“/guild/guild_internal.grpc.pb.cc”)
+  
+\guild\guild_internal.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+  (编译源文件“/guild/guild_internal.pb.cc”)
+  
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj”(默认目标)的操作 - 失败。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\thread_context\thread_context.vcxproj”(10) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\engine\thread_context" -ProjectName "thread_context" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\engine\thread_context\thread_context.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (thread_context): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I../../../../third_party/muduo/ /I../../../../third_party/redis/ /I../../../../third_party/sol2/include/ /I../../../../third_party/lua/src/ /I../../../../third_party/redis/deps/ /I../../../../third_party/muduo/contrib/windows/include/ /I../../../../third_party/lua/ /I../../../../third_party/ /I../../../../third_party/zlib/ /I../../../../third_party/spdlog/include/ /I../../../generated/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /I"../../../../third_party/yaml-cpp/include/" /I../../../../third_party/xxhash/ /I"../../../../third_party/librdkafka/src-cpp/" /I./ /I../core/ /I../../ /I../ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /D YAML_CPP_STATIC_DEFINE /D _WIN32_WINNT=0x0A00 /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/thread_context/" /Fd"../../../../lib/thread_context.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 node_context_manager.cpp
+  node_context_manager.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/thread_context.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/thread_context/ecs_context.obj
+  ../../../../build/cpp/intermediate/lib/thread_context/lua_state.obj
+  ../../../../build/cpp/intermediate/lib/thread_context/node_context_manager.obj
+  ../../../../build/cpp/intermediate/lib/thread_context/redis_manager.obj
+  ../../../../build/cpp/intermediate/lib/thread_context/snow_flake_manager.obj
+  ../../../../build/cpp/intermediate/lib/thread_context/trace_context_tls.obj
+  thread_context.vcxproj -> E:\work\xuanming-server-mmo\lib\thread_context.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/thread_context/thread_context.tlog\thread_context.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\thread_context\thread_context.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj”(11) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/table/table.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/table/table.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\generated\table" -ProjectName "table" -ProjectFile "E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (table): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../libs/base/common/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/muduo /I../../../third_party/boost/ /I../../../third_party/exprtk/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../libs/engine/config/ /I../../libs/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/table/code\\" /Fd"../../../lib/table.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj code\guildactivity_table.cpp code\guildactivity_table_fk.cpp
+  guildactivity_table.cpp
+  guildactivity_table_fk.cpp
+\code\guildactivity_table_fk.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table_fk.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+  (编译源文件“/code/guildactivity_table_fk.cpp”)
+  
+\code\guildactivity_table.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+  (编译源文件“/code/guildactivity_table.cpp”)
+  
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj”(默认目标)的操作 - 失败。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj”(12) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/grpc_client/grpc_client.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\generated\grpc_client" -ProjectName "grpc_client" -ProjectFile "E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (grpc_client): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/battle\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj battle\battle_node_grpc_client.cpp battle\player_battle_grpc_client.cpp
+  battle_node_grpc_client.cpp
+  player_battle_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/chat\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj chat\chat_grpc_client.cpp
+  chat_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/client_rpc_router\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj client_rpc_router\client_rpc_router_grpc_client.cpp
+  client_rpc_router_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/data_service\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj data_service\data_service_grpc_client.cpp
+  data_service_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/db\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj db\db_grpc_client.cpp
+  db_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/etcd\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj etcd\etcd_grpc_client.cpp
+  etcd_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/friend\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj friend\friend_grpc_client.cpp
+  friend_grpc_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj grpc_init_client.cpp
+  grpc_init_client.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../ /I../../../third_party/grpc/include/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I./ /I../../../third_party/muduo/ /I../../../third_party/boost/ /I../../libs/engine/ /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/grpc_client/guild\\" /Fd"../../../lib/grpc_client.pdb" /external:W3 /Gd /TP /wd4996 /wd4018 /wd4244 /wd4082 /wd4267 /wd4819 /FC /errorReport:queue /utf-8 /bigobj guild\guild_grpc_client.cpp guild\guild_internal_grpc_client.cpp
+  guild_grpc_client.cpp
+  guild_internal_grpc_client.cpp
+\guild\guild_internal_grpc_client.cpp(1,1): error C1083: 无法打开源文件: “guild\guild_internal_grpc_client.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj]
+  (编译源文件“/guild/guild_internal_grpc_client.cpp”)
+  
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj”(默认目标)的操作 - 失败。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\muduo_windows\muduo.vcxproj”(13) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”执行 Touch 任务。
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../../third_party/boost/ /I./ /I../../../../third_party/protobuf/src/ /I../../../../third_party/ /I../../../../third_party/zlib/ /I../../../../third_party/muduo/contrib/windows/include /I../../../../third_party/redis /I../../../../third_party/redis/deps/ /I../../../../third_party/muduo/contrib/ /I./src/ /I../../../../third_party/grpc/third_party/protobuf/src/ /I"../../../../third_party/grpc/third_party/abseil-cpp/" /Zi /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"../../../../build/cpp/intermediate/lib/muduo/src\contrib\hiredis\\" /Fd"../../../../lib/muduo.pdb" /external:W3 /Gd /TP /wd4996 /wd4819 /wd4200 /wd4146 /wd4018 /wd4819 /wd4244 /wd4267 /FC /errorReport:queue /utf-8 src\contrib\hiredis\Hiredis.cc
+  Hiredis.cc
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../../lib/muduo.lib" /NOLOGO /MACHINE:X64 ../../../../build/cpp/intermediate/lib/muduo/src\contrib\hiredis\Hiredis.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\AsyncLogging.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Condition.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\CountDownLatch.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\CrossPlatformAdapterFunction.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\CurrentThread.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Date.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Exception.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\FileUtil.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\LogFile.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Logging.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\LogStream.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\ProcessInfo.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Thread.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\ThreadPool.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\Timestamp.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\base\TimeZone.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Acceptor.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\boilerplate.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Buffer.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Channel.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Connector.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\EventLoop.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\EventLoopThread.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\EventLoopThreadPool.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\InetAddress.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Poller.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Socket.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\SocketsOps.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\TcpClient.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\TcpConnection.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\TcpServer.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\Timer.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\TimerQueue.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\poller\DefaultPoller.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\poller\EPollPoller.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\poller\WindowsPollPoller.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\protobuf\ProtobufCodecLite.obj
+  ../../../../build/cpp/intermediate/lib/muduo/src\muduo\net\protorpc\RpcCodec.obj
+  muduo.vcxproj -> E:\work\xuanming-server-mmo\lib\muduo.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/muduo/muduo.tlog\muduo.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\muduo_windows\muduo.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\generated\proto_helpers\proto_helpers.vcxproj”(14) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\generated\proto_helpers" -ProjectName "proto_helpers" -ProjectFile "E:\work\xuanming-server-mmo\cpp\generated\proto_helpers\proto_helpers.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (proto_helpers): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  proto_helpers.vcxproj -> E:\work\xuanming-server-mmo\lib\proto_helpers.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/proto_helpers/proto_helpers.tlog\proto_helpers.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\generated\proto_helpers\proto_helpers.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\engine\session\session.vcxproj”(15) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\engine\session" -ProjectName "session" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\engine\session\session.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (session): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  session.vcxproj -> E:\work\xuanming-server-mmo\lib\session.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../../build/cpp/intermediate/lib/session/session.tlog\unsuccessfulbuild”。
+  正在对“../../../../build/cpp/intermediate/lib/session/session.tlog\session.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\engine\session\session.vcxproj”(默认目标)的操作。
+项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(6)正在节点 1 上生成“E:\work\xuanming-server-mmo\third_party\third_party.vcxproj”(16) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”执行 Touch 任务。
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Lib:
+  所有输出均为最新。
+  third_party.vcxproj -> E:\work\xuanming-server-mmo\lib\third_party.lib
+FinalizeBuildStatus:
+  正在删除文件“../bin/vsout/third_party/third_party.tlog\unsuccessfulbuild”。
+  正在对“../bin/vsout/third_party/third_party.tlog\third_party.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\third_party\third_party.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(默认目标)的操作 - 失败。
+项目“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(2)正在节点 1 上生成“E:\work\xuanming-server-mmo\cpp\libs\modules\modules.vcxproj”(17) (默认目标)。
+PrepareForBuild:
+  已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+InitializeBuildStatus:
+  正在创建“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在对“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”执行 Touch 任务。
+NoRawPointerMemberCheck:
+  pwsh -NoProfile -ExecutionPolicy Bypass -File "E:\work\xuanming-server-mmo\tools\scripts\check_no_raw_pointer_member.ps1" -ProjectDir "E:\work\xuanming-server-mmo\cpp\libs\modules" -ProjectName "modules" -ProjectFile "E:\work\xuanming-server-mmo\cpp\libs\modules\modules.vcxproj" -Configuration "Debug" -Platform "x64" -MSBuildPath "D:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+  [no-raw-pointer-member] SKIP (modules): neither no_raw_ptr_check.exe nor clang-query found.
+ComputeStdModulesCompileInputs:
+  正在读取为库 'microsoft/STL'提供数据的库清单文件 'D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\modules.json'。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.ixx”，以使用此项目生成。
+  正在从库“microsoft/STL”添加模块源“D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\modules\std.compat.ixx”，以使用此项目生成。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../third_party/boost/ /I../../../third_party/muduo/ /I../../../third_party/redis/ /I../../../third_party/sol2/include/ /I../../../third_party/lua/src/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/zlib/ /I../../../third_party/grpc/include/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../../third_party/grpc/third_party/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../third_party/redis/deps/ /I../ /I../engine/infra/ /I"../../../third_party/librdkafka/src-cpp/" /I../engine/config/ /I../engine/thread_context/ /I../../ /I../engine/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/modules/bag\\" /Fd"../../../lib/modules.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 bag\bag_service.cpp bag\item_store.cpp
+  bag_service.cpp
+  item_store.cpp
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../third_party/boost/ /I../../../third_party/muduo/ /I../../../third_party/redis/ /I../../../third_party/sol2/include/ /I../../../third_party/lua/src/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/zlib/ /I../../../third_party/grpc/include/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../../third_party/grpc/third_party/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../third_party/redis/deps/ /I../ /I../engine/infra/ /I"../../../third_party/librdkafka/src-cpp/" /I../engine/config/ /I../engine/thread_context/ /I../../ /I../engine/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/modules/currency\system\\" /Fd"../../../lib/modules.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 currency\system\currency_system.cpp
+  currency_system.cpp
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../third_party/boost/ /I../../../third_party/muduo/ /I../../../third_party/redis/ /I../../../third_party/sol2/include/ /I../../../third_party/lua/src/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/zlib/ /I../../../third_party/grpc/include/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../../third_party/grpc/third_party/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../third_party/redis/deps/ /I../ /I../engine/infra/ /I"../../../third_party/librdkafka/src-cpp/" /I../engine/config/ /I../engine/thread_context/ /I../../ /I../engine/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/modules/id_segment\\" /Fd"../../../lib/modules.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 id_segment\guid_segment_client.cpp id_segment\guid_segment_registry.cpp
+  guid_segment_client.cpp
+  guid_segment_registry.cpp
+  所有输出均为最新。
+  所有输出均为最新。
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../third_party/boost/ /I../../../third_party/muduo/ /I../../../third_party/redis/ /I../../../third_party/sol2/include/ /I../../../third_party/lua/src/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/zlib/ /I../../../third_party/grpc/include/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../../third_party/grpc/third_party/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../third_party/redis/deps/ /I../ /I../engine/infra/ /I"../../../third_party/librdkafka/src-cpp/" /I../engine/config/ /I../engine/thread_context/ /I../../ /I../engine/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/modules/snapshot\\" /Fd"../../../lib/modules.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 snapshot\snapshot_system.cpp
+  snapshot_system.cpp
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\CL.exe /c /I"E:\work\xuanming-server-mmo\third_party\grpc\third_party\utf8_range\\" /I../../../third_party/boost/ /I../../../third_party/muduo/ /I../../../third_party/redis/ /I../../../third_party/sol2/include/ /I../../../third_party/lua/src/ /I../../../third_party/muduo/contrib/windows/include/ /I../../../third_party/zlib/ /I../../../third_party/grpc/include/ /I"../../../third_party/grpc/third_party/abseil-cpp/" /I../../generated/ /I../../../third_party/grpc/third_party/ /I../../../third_party/ /I../../../third_party/grpc/third_party/protobuf/src/ /I./ /I../../../third_party/redis/deps/ /I../ /I../engine/infra/ /I"../../../third_party/librdkafka/src-cpp/" /I../engine/config/ /I../engine/thread_context/ /I../../ /I../engine/ /Zi /JMC /nologo /W3 /WX /diagnostics:column /sdl- /MP /Od /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ENTT_ID_TYPE=uint64_t /D NOMINMAX /D GOOGLE_CHECK_EQ=ABSL_CHECK_EQ /D GOOGLE_LOG=ABSL_LOG /D GOOGLE_DCHECK=ABSL_DCHECK /D _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS /Gm- /EHsc /RTC1 /MDd /GS /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++latest /permissive- /Fo"../../../build/cpp/intermediate/lib/modules/transaction_log\\" /Fd"../../../lib/modules.pdb" /external:W3 /Gd /TP /wd4996 /wd4200 /wd4819 /wd4146 /wd4244 /wd4267 /wd4018 /FC /errorReport:queue /bigobj /utf-8 transaction_log\transaction_log_system.cpp
+  transaction_log_system.cpp
+Lib:
+  D:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\Lib.exe /OUT:"../../../lib/modules.lib" /NOLOGO /MACHINE:X64 ../../../build/cpp/intermediate/lib/modules/bag\bag_system.obj
+  ../../../build/cpp/intermediate/lib/modules/bag\bag_service.obj
+  ../../../build/cpp/intermediate/lib/modules/bag\bag_profile_registry.obj
+  ../../../build/cpp/intermediate/lib/modules/bag\container_layout.obj
+  ../../../build/cpp/intermediate/lib/modules/bag\eviction_policy.obj
+  ../../../build/cpp/intermediate/lib/modules/bag\item_store.obj
+  ../../../build/cpp/intermediate/lib/modules/condition\condition_util.obj
+  ../../../build/cpp/intermediate/lib/modules/currency\system\currency_system.obj
+  ../../../build/cpp/intermediate/lib/modules/gain_block\gain_block_service.obj
+  ../../../build/cpp/intermediate/lib/modules/id_segment\guid_segment_client.obj
+  ../../../build/cpp/intermediate/lib/modules/id_segment\guid_segment_registry.obj
+  ../../../build/cpp/intermediate/lib/modules/mission\comp\mission_comp.obj
+  ../../../build/cpp/intermediate/lib/modules/mission\system\mission.obj
+  ../../../build/cpp/intermediate/lib/modules/snapshot\snapshot_system.obj
+  ../../../build/cpp/intermediate/lib/modules/transaction_log\anomaly_detector.obj
+  ../../../build/cpp/intermediate/lib/modules/transaction_log\transaction_log_system.obj
+  modules.vcxproj -> E:\work\xuanming-server-mmo\lib\modules.lib
+FinalizeBuildStatus:
+  正在删除文件“../../../build/cpp/intermediate/lib/modules/modules.tlog\unsuccessfulbuild”。
+  正在对“../../../build/cpp/intermediate/lib/modules/modules.tlog\modules.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\libs\modules\modules.vcxproj”(默认目标)的操作。
+已完成生成项目“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(默认目标)的操作 - 失败。
+已完成生成项目“E:\work\xuanming-server-mmo\game.sln”(cpp\nodes\scene 个目标)的操作 - 失败。
+
+生成失败。
+
+“E:\work\xuanming-server-mmo\game.sln”(cpp\nodes\scene 目标) (1) ->
+“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(默认目标) (2) ->
+“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(默认目标) (6) ->
+“E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj”(默认目标) (9) ->
+(ClCompile 目标) -> 
+  \guild\guild_internal.grpc.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.grpc.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+  \guild\guild_internal.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+
+
+“E:\work\xuanming-server-mmo\game.sln”(cpp\nodes\scene 目标) (1) ->
+“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(默认目标) (2) ->
+“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(默认目标) (6) ->
+“E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj”(默认目标) (11) ->
+  \code\guildactivity_table_fk.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table_fk.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+  \code\guildactivity_table.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+
+
+“E:\work\xuanming-server-mmo\game.sln”(cpp\nodes\scene 目标) (1) ->
+“E:\work\xuanming-server-mmo\cpp\nodes\scene\scene.vcxproj.metaproj”(默认目标) (2) ->
+“E:\work\xuanming-server-mmo\cpp\libs\services\scene\scene.vcxproj.metaproj”(默认目标) (6) ->
+“E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj”(默认目标) (12) ->
+  \guild\guild_internal_grpc_client.cpp(1,1): error C1083: 无法打开源文件: “guild\guild_internal_grpc_client.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj]
+
+    0 个警告
+    5 个错误
+
+E:\work\image\designs\team-invites-20260928\aoi-fix\scene-build-20261001-094040.log 已写入: FileLogger
+
+已用时间 00:06:31.78

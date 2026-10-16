@@ -1,0 +1,17 @@
+2026-09-29T05:55:18.919-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T05:55:19.020-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 05:55:19 Connected to 127.0.0.1:10000
+2026-09-29T05:55:19.736-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2202, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026-09-29T05:55:19.736-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_453d7d6d203cd21c_a", "player_id": 2202, "zone": 1}
+2026/09/29 05:55:21 Connected to 127.0.0.1:10000
+2026-09-29T05:55:21.544-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2203, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T05:55:21.544-0400	INFO	robot/team_invites_acceptance.go:82	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_453d7d6d203cd21c_b", "player_id": 2203, "zone": 1}
+2026/09/29 05:55:26 Write skipped: no active connection
+2026/09/29 05:55:26 Connection closed cleanly
+2026/09/29 05:55:26 Write skipped: no active connection
+2026/09/29 05:55:26 Connection closed cleanly
+2026-09-29T05:55:26.269-0400	ERROR	robot/main.go:187	TEAM_INVITES_ACCEPTANCE_FAIL	{"error": "RPC12 好友真实资料或在线态不完整: friend_player_id:2203  since_ms:1790675723951  last_active_ms:1790675721428  is_online:true  name:\"道友heuewr\"  class_id:1  gender:1  zone_id:1"}
+main.main
+	E:/work/xuanming-server-mmo/robot/main.go:187
+runtime.main
+	C:/Users/luyua/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.5.windows-amd64/src/runtime/proc.go:290

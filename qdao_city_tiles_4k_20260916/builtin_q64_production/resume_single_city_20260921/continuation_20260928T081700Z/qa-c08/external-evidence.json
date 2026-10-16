@@ -1,0 +1,665 @@
+{
+  "createdAtUtc": "2026-09-28T11:59:34.060791+00:00",
+  "sources": {
+    "r08_c08": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c08\\correction-20260923T114016880544Z\\local-repair-v1\\masked-result\\r08_c08.png",
+      "sha256": "07981e070d4bff63ba9897cdc639398d7ea782e1ed5be386069725cc13532680"
+    },
+    "r08_c07": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c07\\continuation-20260923\\qa-repair-20260923\\repaired-v1\\r08_c07.png",
+      "sha256": "7e60bc705c1b750cad18bffa9f486f7be680835c1ee3bf0f692f0202325699e6"
+    },
+    "r08_c09": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c09\\continuation-20260923\\versions\\bottom-material-v2-20260923T094331634966Z\\r08_c09.png",
+      "sha256": "dbaf9d7e02a8bcccf958d81e0bf5e506c4d558dff553d5abb759abdbc3320cd5"
+    },
+    "r09_c07": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\tianyong_festival\\upperpair_r09_c07_c08_row10_c07_c10_20260918\\output_v5\\r09_c07.png",
+      "sha256": "869a04021590e5f080435968e2cedcbca8d112e821911ac02359b07cfa7d6699"
+    },
+    "r09_c08": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\tianyong_festival\\upperpair_r09_c07_c08_row10_c07_c10_20260918\\output_v5\\r09_c08.png",
+      "sha256": "082c9b20f605c9ff695acaae423b72903119baeb4d5dbc475343552020fafdc2"
+    },
+    "r09_c09": {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\tools\\repairs\\versions\\r09_c09_repair_v6\\r09_c09.png",
+      "sha256": "5ce3e9099c4292a3c2d2b854bcc6d2cfd3b8858bb6960bc8e7966699ade4742c"
+    }
+  },
+  "items": [
+    {
+      "id": "external-left-1",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-left-1.png",
+      "sha256": "7bef37178b1e24afc6e71a96a240af048909d8575e1341d45aab68e3ef8b8f85",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c07",
+          [
+            3469,
+            0,
+            4096,
+            1024
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c08",
+          [
+            0,
+            0,
+            627,
+            1024
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-left-2",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-left-2.png",
+      "sha256": "3bab3e66d8ada8e9c8020cac165df7abc62d875008939a75ee19077cb773faae",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c07",
+          [
+            3469,
+            1024,
+            4096,
+            2048
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c08",
+          [
+            0,
+            1024,
+            627,
+            2048
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-left-3",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-left-3.png",
+      "sha256": "a2f34eeaa7c1fe092f95d495b5f5f6c6ede1d4c2bbf4682e78e26cfcb8333e47",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c07",
+          [
+            3469,
+            2048,
+            4096,
+            3072
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c08",
+          [
+            0,
+            2048,
+            627,
+            3072
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-left-4",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-left-4.png",
+      "sha256": "cf161685fb648f2bccebf51a3b01be73a6a3d793bb55d17171dd3c5c71d3fa6b",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c07",
+          [
+            3469,
+            3072,
+            4096,
+            4096
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c08",
+          [
+            0,
+            3072,
+            627,
+            4096
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-right-1",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-right-1.png",
+      "sha256": "607ac5a190b196e54023488b76c43f2f0fd972d629b00915febbd3d06a5fba93",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3469,
+            0,
+            4096,
+            1024
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c09",
+          [
+            0,
+            0,
+            627,
+            1024
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-right-2",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-right-2.png",
+      "sha256": "f950e7ac9ef662a001ba2a14a6722caffc5b3caedf452dfbe9b0fc5ed9f1f62f",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3469,
+            1024,
+            4096,
+            2048
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c09",
+          [
+            0,
+            1024,
+            627,
+            2048
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-right-3",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-right-3.png",
+      "sha256": "b3f05ced96e7ce13548b4e2c359a4f129a55f8b8463c7465756f4b65aa55769c",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3469,
+            2048,
+            4096,
+            3072
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c09",
+          [
+            0,
+            2048,
+            627,
+            3072
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-right-4",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-right-4.png",
+      "sha256": "42afe8a5fbb1ba95f3de0e09aaf92b822de9005d58c681c1632546fae042e118",
+      "pixels": [
+        1254,
+        1024
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3469,
+            3072,
+            4096,
+            4096
+          ],
+          [
+            0,
+            0,
+            627,
+            1024
+          ]
+        ],
+        [
+          "r08_c09",
+          [
+            0,
+            3072,
+            627,
+            4096
+          ],
+          [
+            627,
+            0,
+            1254,
+            1024
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-bottom-1",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-bottom-1.png",
+      "sha256": "c9ea963f111cada534deb1d050ac5451553e7da06c8311b0f12dd3d4a65f9c62",
+      "pixels": [
+        1024,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            0,
+            3469,
+            1024,
+            4096
+          ],
+          [
+            0,
+            0,
+            1024,
+            627
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            0,
+            0,
+            1024,
+            627
+          ],
+          [
+            0,
+            627,
+            1024,
+            1254
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-bottom-2",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-bottom-2.png",
+      "sha256": "ded4f45624b2b52d49fa2b0c31f76588765861ed8102c853626a3120ab81aa4f",
+      "pixels": [
+        1024,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            1024,
+            3469,
+            2048,
+            4096
+          ],
+          [
+            0,
+            0,
+            1024,
+            627
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            1024,
+            0,
+            2048,
+            627
+          ],
+          [
+            0,
+            627,
+            1024,
+            1254
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-bottom-3",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-bottom-3.png",
+      "sha256": "f2dd9463f3e20b6bd92b16ba302654fba92093cd125b85b0997d468d82a971b6",
+      "pixels": [
+        1024,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            2048,
+            3469,
+            3072,
+            4096
+          ],
+          [
+            0,
+            0,
+            1024,
+            627
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            2048,
+            0,
+            3072,
+            627
+          ],
+          [
+            0,
+            627,
+            1024,
+            1254
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-bottom-4",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-bottom-4.png",
+      "sha256": "869547a09068dc49f6df00649f55f59a9891d9d4cc93efef4b619eccac78f54f",
+      "pixels": [
+        1024,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3072,
+            3469,
+            4096,
+            4096
+          ],
+          [
+            0,
+            0,
+            1024,
+            627
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            3072,
+            0,
+            4096,
+            627
+          ],
+          [
+            0,
+            627,
+            1024,
+            1254
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-junction-sw",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-junction-sw.png",
+      "sha256": "cea33fb294523826a9ef836ce722ef8c2242c400f56e3a4a3687978f3d7d30a9",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c07",
+          [
+            3469,
+            3469,
+            4096,
+            4096
+          ],
+          [
+            0,
+            0,
+            627,
+            627
+          ]
+        ],
+        [
+          "r08_c08",
+          [
+            0,
+            3469,
+            627,
+            4096
+          ],
+          [
+            627,
+            0,
+            1254,
+            627
+          ]
+        ],
+        [
+          "r09_c07",
+          [
+            3469,
+            0,
+            4096,
+            627
+          ],
+          [
+            0,
+            627,
+            627,
+            1254
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            0,
+            0,
+            627,
+            627
+          ],
+          [
+            627,
+            627,
+            1254,
+            1254
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "external-junction-se",
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\qa-c08\\external-junction-se.png",
+      "sha256": "71157ea12f9d09706e598c64a1659619d229077187d26d539ce8b25a26060ed7",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "parts": [
+        [
+          "r08_c08",
+          [
+            3469,
+            3469,
+            4096,
+            4096
+          ],
+          [
+            0,
+            0,
+            627,
+            627
+          ]
+        ],
+        [
+          "r08_c09",
+          [
+            0,
+            3469,
+            627,
+            4096
+          ],
+          [
+            627,
+            0,
+            1254,
+            627
+          ]
+        ],
+        [
+          "r09_c08",
+          [
+            3469,
+            0,
+            4096,
+            627
+          ],
+          [
+            0,
+            627,
+            627,
+            1254
+          ]
+        ],
+        [
+          "r09_c09",
+          [
+            0,
+            0,
+            627,
+            627
+          ],
+          [
+            627,
+            627,
+            1254,
+            1254
+          ]
+        ]
+      ]
+    }
+  ]
+}

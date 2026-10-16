@@ -1,0 +1,646 @@
+Mono path[0] = 'E:/work/tmp/wuxing-team-invites-player-20260929/mmorpg_Data/Managed'
+Mono config path = 'E:/work/tmp/wuxing-team-invites-player-20260929/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Found 4 interfaces on host : 0) 192.168.1.2 1) 192.168.112.1 2) 172.31.32.1 3) 198.0.2.1
+Player connection [81744]  Target information:
+
+Player connection [81744]  * "[IP] 192.168.1.2 [Port] 55009 [Flags] 2 [Guid] 2012412750 [EditorId] 675446626 [Version] 1048832 [Id] WindowsPlayer(2,luyuan) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] unity" 
+
+Player connection [81744]  * "[IP] 192.168.112.1 [Port] 55009 [Flags] 2 [Guid] 2012412750 [EditorId] 675446626 [Version] 1048832 [Id] WindowsPlayer(2,luyuan) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] unity" 
+
+Player connection [81744]  * "[IP] 172.31.32.1 [Port] 55009 [Flags] 2 [Guid] 2012412750 [EditorId] 675446626 [Version] 1048832 [Id] WindowsPlayer(2,luyuan) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] unity" 
+
+Player connection [81744]  * "[IP] 198.0.2.1 [Port] 55009 [Flags] 2 [Guid] 2012412750 [EditorId] 675446626 [Version] 1048832 [Id] WindowsPlayer(2,luyuan) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] unity" 
+
+Player connection [81744] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path E:/work/tmp/wuxing-team-invites-player-20260929/mmorpg_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.15.9186
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 11944 MB
+[D3D12 Device Filter] Processor Count: 32
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Ti Laptop GPU (ID=0x2f18)
+    Vendor:          NVIDIA
+    VRAM:            11944 MB
+    App VRAM Budget: 11176 MB
+    Driver:          32.0.15.9186
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Finished resetting the current domain, in  0.036 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.789800 ms
+[AppBootstrap] Awake (native uGUI)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap:Awake () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:90)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[AppBootstrap] uGUI server-select vertical slice active
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.Ugui.QdaoUguiRuntime:Create (MmorpgClient.UI.AppBootstrap) (at E:/work/mmorpg-client/Assets/Scripts/UI/Ugui/QdaoUguiRuntime.cs:64)
+MmorpgClient.UI.AppBootstrap:Awake () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:93)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[AutoPilot][leader] stage=login zone=1 account=robot_tui_fcf7df80745d4021_leader gateway=http://127.0.0.1:8081 autoQueue=- battleConfig=default autoBattle=False quitOnBattleEnd=False timeouts(login/queue/battle)=90/60/180s
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevAutoPilot:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:1186)
+MmorpgClient.App.DevAutoPilot:Start () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:353)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在登录账号…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<EnterZone>d__137:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:402)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2 (System.Collections.IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator) (at C:/build/output/unity/unity/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:114)
+MmorpgClient.UI.AppBootstrap:Run (System.Collections.IEnumerator) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:119)
+MmorpgClient.App.DevAutoPilot:Start () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:367)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] BEGIN run=fcf7df80745d4021 input=programmatic_unity_pointer_events
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver/<Start>d__27:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:93)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] http login ok, players=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<EnterZone>d__137:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:437)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在分配服务器…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<EnterZone>d__137:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:440)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] assigned gate 127.0.0.1:10000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<EnterZone>d__137:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:493)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在连接服务器…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<ConnectAndEnter>d__138:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:518)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] gate token verified, zone=1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<ConnectAndEnter>d__138:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:560)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在验证会话…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<ConnectAndEnter>d__138:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:566)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] session login ok, players=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<ConnectAndEnter>d__138:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:581)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在创建角色…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<CreatePlayerCo>d__139:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:671)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] created new player 2216 class=0 gender=0 name=道友49lv2w appearance=24_lu_dongbin
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<CreatePlayerCo>d__139:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:723)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 正在进入游戏…
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<EnterGameAndWaitScene>d__140:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:734)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] enter game accepted, player_id=2216
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient/<EnterGameAndWaitScene>d__140:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:754)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [scene] entered scene_id=63941896849850368, config=1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_1 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1522)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[FestivalRegion] ready scene=1 festival=False spawn=(200.00, 0.00, 180.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.World.Tianyong.TianyongMapRuntime:EnterScene (uint) (at E:/work/mmorpg-client/Assets/Scripts/World/Tianyong/TianyongMapRuntime.cs:169)
+MmorpgClient.World.Tianyong.TianyongMapRuntime:HandleSceneEntered (SceneInfoComp) (at E:/work/mmorpg-client/Assets/Scripts/World/Tianyong/TianyongMapRuntime.cs:120)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_1 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1525)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [actor] self entity=34359738369 server=(180.00,200.00,0.00) unity=(200.00,0.00,180.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:SpawnActorView (ActorCreateS2C) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1761)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_5 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1584)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] 进入游戏成功
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:Status (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1828)
+MmorpgClient.Game.GameClient/<EnterGameAndWaitScene>d__140:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:789)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[AutoPilot][leader] stage=in_game player_id=2216 scene_id=63941896849850368 scene_config=1 gate=127.0.0.1:10000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevAutoPilot:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:1186)
+MmorpgClient.App.DevAutoPilot:HandleVerifiedEnterSuccess () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:489)
+MmorpgClient.App.DevAutoPilot:HandleEnterSuccess () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:448)
+MmorpgClient.Game.GameClient/<EnterGameAndWaitScene>d__140:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:790)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[AutoPilot][leader] RESULT=PASS stage=in_game (no -autoQueue, staying in scene)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevAutoPilot:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:1186)
+MmorpgClient.App.DevAutoPilot:HandleVerifiedEnterSuccess () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:515)
+MmorpgClient.App.DevAutoPilot:HandleEnterSuccess () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:448)
+MmorpgClient.Game.GameClient/<EnterGameAndWaitScene>d__140:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:790)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] phase=ready round=-1 player_id=2216 team_id=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Publish (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:402)
+MmorpgClient.App.DevTeamInvitationDriver/<Start>d__27:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:101)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] CHECK Distinct real authenticated player IDs: 2216 / 2217
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Check (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:411)
+MmorpgClient.App.DevTeamInvitationDriver/<Start>d__27:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:105)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [scene] entered scene_id=63941896849850369, config=1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_1 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1522)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[FestivalRegion] ready scene=1 festival=False spawn=(200.00, 0.00, 180.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.World.Tianyong.TianyongMapRuntime:EnterScene (uint) (at E:/work/mmorpg-client/Assets/Scripts/World/Tianyong/TianyongMapRuntime.cs:169)
+MmorpgClient.World.Tianyong.TianyongMapRuntime:HandleSceneEntered (SceneInfoComp) (at E:/work/mmorpg-client/Assets/Scripts/World/Tianyong/TianyongMapRuntime.cs:120)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_1 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1525)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [actor] self entity=34359738369 server=(180.00,200.00,0.00) unity=(200.00,0.00,180.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:SpawnActorView (ActorCreateS2C) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1761)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_5 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1584)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] phase=aligned round=-1 player_id=2216 team_id=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Publish (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:402)
+MmorpgClient.App.DevTeamInvitationDriver/<Start>d__27:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:120)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [scene] +1 actors
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:<WireSceneNotifyHandlers>b__180_6 (MessageContent) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1591)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1504)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [unhandled] message_id=66 bytes=22
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1505)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] phase=friend-requested round=-1 player_id=2216 team_id=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Publish (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:402)
+MmorpgClient.App.DevTeamInvitationDriver/<Leader>d__28:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:140)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[GameClient] [unhandled] message_id=235 bytes=12
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.UI.AppBootstrap/<>c:<Awake>b__30_0 (string) (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:81)
+MmorpgClient.Game.GameClient:Log (string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1827)
+MmorpgClient.Game.GameClient:DispatchInbound (Google.Protobuf.IMessage) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1505)
+MmorpgClient.Net.GateTcpClient:Poll () (at E:/work/mmorpg-client/Assets/Scripts/Net/GateTcpClient.cs:91)
+MmorpgClient.Game.GameClient:Tick () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:335)
+MmorpgClient.UI.AppBootstrap:Update () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:114)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] CHECK World history contains peer's server-acknowledged marker.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Check (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:411)
+MmorpgClient.App.DevTeamInvitationDriver/<Leader>d__28:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:149)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] CHECK Created actual team 74020166459785216
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Check (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:411)
+MmorpgClient.App.DevTeamInvitationDriver/<Leader>d__28:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:157)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[TeamVerify][leader] CHECK Real source Friends contains peer 2217 and excludes self.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Check (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:411)
+MmorpgClient.App.DevTeamInvitationDriver/<Leader>d__28:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:218)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+CaptureScreenshotAsTexture() failed to generate texture! Was method called before the 'end of frame' state was reached?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture (int,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture () (at C:/build/output/unity/unity/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs:25)
+MmorpgClient.App.DevTeamInvitationDriver/<Capture>d__42:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:463)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 23]
+
+CaptureScreenshotAsTexture() failed to generate texture! Was method called before the 'end of frame' state was reached?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture (int,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture () (at C:/build/output/unity/unity/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs:25)
+MmorpgClient.App.DevTeamInvitationDriver:Fail (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:501)
+MmorpgClient.App.DevTeamInvitationDriver/<Capture>d__42:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:479)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 23]
+
+[TeamVerify][leader] RESULT=FAIL phase=friend-requested round=0 reason=Evidence capture: No real screen frame.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogError (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:158)
+MmorpgClient.App.DevTeamInvitationDriver:Fail (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:506)
+MmorpgClient.App.DevTeamInvitationDriver/<Capture>d__42:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:479)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 158)
+
+[TeamVerify][leader] phase=failed round=0 player_id=2216 team_id=74020166459785216
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+MmorpgClient.App.DevTeamInvitationDriver:Publish (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:402)
+MmorpgClient.App.DevTeamInvitationDriver:Fail (string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:507)
+MmorpgClient.App.DevTeamInvitationDriver/<Capture>d__42:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:479)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+CaptureScreenshotAsTexture() failed to generate texture! Was method called before the 'end of frame' state was reached?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture (int,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture () (at C:/build/output/unity/unity/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs:25)
+MmorpgClient.App.DevTeamInvitationDriver/<FinishFailureFrame>d__45:MoveNext () (at E:/work/mmorpg-client/Assets/Scripts/App/DevTeamInvitationDriver.cs:517)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 23]
+
+[AutoPilot][leader] RESULT=FAIL stage=done reason=与服务器断开连接
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogError (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:158)
+MmorpgClient.App.DevAutoPilot:Finish (bool,string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:1167)
+MmorpgClient.App.DevAutoPilot:Fail (string,string) (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:1156)
+MmorpgClient.App.DevAutoPilot:HandleDisconnected () (at E:/work/mmorpg-client/Assets/Scripts/App/DevAutoPilot.cs:760)
+MmorpgClient.Game.GameClient:DisconnectInternal (bool,bool,string) (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1903)
+MmorpgClient.Game.GameClient:Disconnect () (at E:/work/mmorpg-client/Assets/Scripts/Game/GameClient.cs:1849)
+MmorpgClient.UI.AppBootstrap:OnDestroy () (at E:/work/mmorpg-client/Assets/Scripts/UI/AppBootstrap.cs:242)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 158)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+PlayerConnection::Cleanupd3d12: Error when writing PSO binary data to C:/Users/luyua/AppData/Local/Temp/DefaultCompany/unity/dx12_pso_cache_lib.bin
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790680565402,"processId":36900,"allocatedMemory":387770,"memoryLabels":[{"Default":6904},{"NewDelete":760},{"Thread":7616},{"Manager":19287},{"GfxDevice":2448},{"Audio":544},{"Serialization":17000},{"ScriptingNativeRuntime":323848},{"String":443},{"PoolAlloc":720},{"ScriptManager":5688},{"CodeReload":440},{"CloudService":144},{"VR":1928},{"Video":144},{"Subsystems":96},{"CoreBusinessMetrics":128}]}

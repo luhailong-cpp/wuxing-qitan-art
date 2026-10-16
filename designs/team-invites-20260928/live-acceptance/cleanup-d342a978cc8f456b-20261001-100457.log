@@ -1,0 +1,17 @@
+2026-10-01T10:04:57.280-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-10-01T10:04:57.318-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/10/01 10:04:57 Connected to 127.0.0.1:10000
+2026-10-01T10:04:57.869-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2218, "scene_id": 63941896849850370, "scene_config_id": 1}
+2026-10-01T10:04:57.919-0400	INFO	robot/team_invites_cleanup.go:112	TEAM_INVITES_UNITY_CLEANUP_IDENTITY_VERIFIED	{"account": "robot_tui_d342a978cc8f456b_leader", "player_id": 2218, "team_id": 0}
+2026/10/01 10:04:57 Connected to 127.0.0.1:10000
+2026-10-01T10:04:58.346-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2219, "scene_id": 63941896849850371, "scene_config_id": 1}
+2026-10-01T10:04:58.396-0400	INFO	robot/team_invites_cleanup.go:112	TEAM_INVITES_UNITY_CLEANUP_IDENTITY_VERIFIED	{"account": "robot_tui_d342a978cc8f456b_member", "player_id": 2219, "team_id": 0}
+2026-10-01T10:05:06.321-0400	INFO	robot/team_invites_cleanup.go:151	TEAM_INVITES_UNITY_FRIEND_REMOVED	{"viewer": 2218, "peer": 2219}
+2026-10-01T10:05:08.421-0400	INFO	robot/team_invites_cleanup.go:159	TEAM_INVITES_UNITY_NO_TEAM_VERIFIED	{"player_id": 2218}
+2026-10-01T10:05:08.471-0400	INFO	robot/team_invites_cleanup.go:151	TEAM_INVITES_UNITY_FRIEND_REMOVED	{"viewer": 2219, "peer": 2218}
+2026-10-01T10:05:10.572-0400	INFO	robot/team_invites_cleanup.go:159	TEAM_INVITES_UNITY_NO_TEAM_VERIFIED	{"player_id": 2219}
+2026/10/01 10:05:10 Write skipped: no active connection
+2026/10/01 10:05:10 Connection closed cleanly
+2026/10/01 10:05:10 Write skipped: no active connection
+2026/10/01 10:05:10 Connection closed cleanly
+2026-10-01T10:05:10.572-0400	INFO	robot/team_invites_cleanup.go:89	TEAM_INVITES_UNITY_CLEANUP_OK	{"run": "d342a978cc8f456b"}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-carving-vertical-v2.native.png",
+  "sha256": "0a457007f2340687f0c1dc32f9b9a08ba79b86e514a8c86af8b1a3cc216080a7",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "generatedAt": null,
+  "hostObservedStartedAtUtc": "2026-09-28 11:19:40 UTC",
+  "hostObservedFinishedAtUtc": "2026-09-28 11:22:00 UTC",
+  "recordedAtUtc": "2026-09-28T11:24:01.680339+00:00",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-09-25",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+    }
+  },
+  "configSnapshotSha256": "be4019d3fbf45cdf6e4587a175a8c59f663b9b13c9233e722e12b0c8724c097b",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null
+  },
+  "actualPayloadFile": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\requests\\c07-carving-vertical-v2.request.json",
+  "actualPayloadSha256": "744a5d12b668498c767600321e7a921e538ecadd87f9021deb8fa7b8e82bd023",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed builtin route; tool returned no model, quality, native-generation size field or server generation time. Dimensions below are decoded raw tool-return file dimensions, with no local resizing.",
+  "references": [
+    {
+      "path": "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/continuation_20260928T081700Z/requests/c07-carving-vertical-v2.context.png",
+      "sha256": "8e69aa709e29f835115aa3d71920f7eebbebcfb35e6397dee0b23b230026f2f8"
+    },
+    {
+      "path": "E:/work/image/designs/gameplay-ui/04-guild.png",
+      "sha256": "85d0c8260237fb6381d6c54005d5f2ac9f4b065a16d318e3e12e6498312a40a6"
+    },
+    {
+      "path": "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/next_tile_r08_c08/correction-20260923T114016880544Z/native-ivory-material-reference.png",
+      "sha256": "595096d1874887264524273c665e6ce3cd6aface739a400f22ecbca423f04e6b"
+    }
+  ],
+  "evidence": {
+    "toolResponse": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-carving-vertical-v2.tool-response.json",
+    "toolResponseSha256": "a6a1e9b15c53f43dbf58ec1aadef193439293f1775ac242f51c3c498d936c093",
+    "hostSavedOriginal": "C:\\Users\\luyua\\.codex\\generated_images\\01a0d777-2f43-7e60-803f-af7da40012bd\\exec-e2449ec9-8e4a-463f-bc27-f61529dddfbf.png",
+    "hostSavedOriginalSha256": "0a457007f2340687f0c1dc32f9b9a08ba79b86e514a8c86af8b1a3cc216080a7",
+    "byteIdenticalCopy": true,
+    "metadataAsciiObservations": [
+      {
+        "chunk": "caBX",
+        "readableString": "jumdc2pa"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "urn:c2pa:b6ba61bb-acba-462e-80d0-5529d207c257"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.assertions"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.icon"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.actions.v2"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "factionlc2pa.createddwhen"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "2026-09-28T11:21:46.535291049ZmsoftwareAgent"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "dnamegChatGPTgversionigpt-imageqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "factionnc2pa.converteddwhen"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.watermarked.unbounddwhen"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.hash.data"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.claim.v2"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "jinstanceIDx,xmp:iid:d8ef85b0-0044-43fb-99ea-ea46c86be3c2tclaim_generator_info"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI Media Service APIdicon"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "kspecVersione2.2.0worg.contentauth.c2pa_rsf0.79.2isignaturexMself#jumbf=/c2pa/urn:c2pa:b6ba61bb-acba-462e-80d0-5529d207c257/c2pa.signaturercreated_assertions"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "c2pa.signature"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "\"Trufo C2PA Claim Signing CA (2025)0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI Media Service0Y0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "https://ca.trufo.ai/c2pa-ca.crt03"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "#Trufo C2PA Root CA (2025, ECC P384)0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "\"Trufo C2PA Claim Signing CA (2025)0v0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Issuing CA0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Leaf0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Root CA0 "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Issuing CA0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Root CA0 "
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Root CA0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Issuing CA"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI OpCo, LLC1"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "OpenAI TSA Issuing CA"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "\"Trufo C2PA Claim Signing CA (2025)0"
+      },
+      {
+        "chunk": "caBX",
+        "readableString": "Trufo C2PA OCSP Responder0Y0"
+      }
+    ],
+    "c2paSignatureVerified": false
+  },
+  "editSourceCandidateSha256": "ac474d0cf508ee596d574f2c3f593eede0114116697028119cbc4f3a4ca3026a",
+  "sourceCropLTRB": [
+    0,
+    0,
+    1254,
+    1254
+  ],
+  "rawReturnedPixels": [
+    1254,
+    1254
+  ],
+  "requestedPixels": [
+    1254,
+    1254
+  ],
+  "requestedSizeMatched": true,
+  "localResizingPerformed": false,
+  "formalAccepted": false
+}

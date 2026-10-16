@@ -1,0 +1,23 @@
+2026-09-29T06:11:35.019-0400	INFO	config/config.go:596	loaded tables	{"table_dir": "E:/work/xuanming-server-mmo/generated/tables", "skill_count": 13, "class_count": 9}
+2026-09-29T06:11:35.130-0400	INFO	config/config.go:607	auto-resolved skill_ids from skill table	{"skill_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}
+2026/09/29 06:11:35 Connected to 127.0.0.1:10000
+2026-09-29T06:11:35.712-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2208, "scene_id": 63941896849850368, "scene_config_id": 1}
+2026-09-29T06:11:35.712-0400	INFO	robot/team_invites_acceptance.go:84	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_10574e36912c205a_a", "player_id": 2208, "zone": 1}
+2026-09-29T06:11:35.769-0400	INFO	robot/team_invites_acceptance.go:93	TEAM_INVITES_RUNTIME_LEVEL_OK	{"player_id": 2208, "level": 1}
+2026/09/29 06:11:40 Connected to 127.0.0.1:10000
+2026-09-29T06:11:40.500-0400	INFO	handler/scene_scene_client_player_notify_enter_scene.go:16	notify enter scene	{"player": 2209, "scene_id": 63941896849850369, "scene_config_id": 1}
+2026-09-29T06:11:40.500-0400	INFO	robot/team_invites_acceptance.go:84	TEAM_INVITES_LOGIN_OK	{"account": "robot_tinv_10574e36912c205a_b", "player_id": 2209, "zone": 1}
+2026-09-29T06:11:40.550-0400	INFO	robot/team_invites_acceptance.go:93	TEAM_INVITES_RUNTIME_LEVEL_OK	{"player_id": 2209, "level": 1}
+2026-09-29T06:11:48.013-0400	INFO	robot/team_invites_acceptance.go:137	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2208, "friend": 2209, "name": "道友2adg54", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:11:48.952-0400	INFO	robot/team_invites_acceptance.go:137	TEAM_INVITES_FRIEND_LIST_OK	{"rpc": 12, "viewer": 2209, "friend": 2208, "name": "道友24hfv6", "level": 0, "class_id": 1, "appearance_id": ""}
+2026-09-29T06:11:52.213-0400	INFO	robot/team_invites_acceptance.go:274	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2209, "query": "2209", "pages": 2, "name": "道友2adg54", "cached_level": 0, "runtime_level": 1}
+2026-09-29T06:11:56.415-0400	INFO	robot/team_invites_acceptance.go:274	TEAM_INVITES_ONLINE_OK	{"rpc": 119, "player_id": 2209, "query": "道友2adg54", "pages": 2, "name": "道友2adg54", "cached_level": 0, "runtime_level": 1}
+2026-09-29T06:12:00.717-0400	INFO	robot/team_invites_acceptance.go:170	TEAM_INVITES_INVITE_PUSH_OK	{"team_id": 74003652310532096, "inviter": 2208, "invitee": 2209}
+2026/09/29 06:12:07 Connection closed cleanly
+2026/09/29 06:12:07 Write skipped: no active connection
+2026/09/29 06:12:07 Connection closed cleanly
+2026-09-29T06:12:07.120-0400	ERROR	robot/main.go:187	TEAM_INVITES_ACCEPTANCE_FAIL	{"error": "接受后成员视图错误: player_id:2208 class_id:1 gender:1 is_leader:true is_online:true zone_id:1 join_seq:1"}
+main.main
+	E:/work/xuanming-server-mmo/robot/main.go:187
+runtime.main
+	C:/Users/luyua/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.5.windows-amd64/src/runtime/proc.go:290

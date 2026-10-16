@@ -1,0 +1,29 @@
+{
+  "preparedAtUtc": "2026-09-29T10:51:08.915Z",
+  "payload": {
+    "prompt": "Edit image 1 in place. Return the entire tall game-map strip at 1280x3840 native pixels, exactly 1:3 aspect ratio, preserving composition and feature scale. It depicts close-up rounded ivory paving with warm gold trim, spiral medallion at the top left, curved stone rim at right and rectangular paving enclosure below. Fix the false vertical assembly seam through its exact center x=640, especially the abrupt tone step and broken horizontal gold trim near the lower fifth, and the spurious horizontal tone boundaries at y=1024,2048,3072. Make the ivory surfaces and all gold lines continuous across those false joins. Preserve every real diagonal slab joint, all slab positions, widths, camera angle, carvings, and the location of all line endpoints along the outer borders. Keep the exact full framing with no zoom, no crop, no rotation and no added objects. Image 2 is ONLY the approved rendering-style reference: clean bright Daoist Q-style, rounded hand-painted depth, warm ivory and gold; do not include any of its UI or text. Repair with crisp native detail and smooth subtle natural stone shading; no grain, cracks, cloud-like blotches, softened edges or sharpening halos. Use the highest visual fidelity available. Output only the complete corrected strip without any labels or margins.",
+    "referenced_image_paths": [
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/continuation_20260929/c07-x1024-strip-context.png",
+      "E:/work/image/designs/gameplay-ui/04-guild.png"
+    ],
+    "transparent_background": false
+  },
+  "desiredNativePixels": [
+    1280,
+    3840
+  ],
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceCropLTRB": [
+    384,
+    0,
+    1664,
+    3840
+  ],
+  "formalAccepted": false
+}

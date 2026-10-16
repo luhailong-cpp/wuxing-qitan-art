@@ -1,0 +1,25 @@
+# match/internal/logic
+internal\logic\gather.go:117:61: undefined: battlepb.BattleActivityContext
+internal\logic\gather.go:129:28: undefined: battlepb.BattleActivityContext
+internal\logic\activitybattlelogic.go:86:68: undefined: matchpb.StartActivityBattleRequest
+internal\logic\activitybattlelogic.go:86:106: undefined: matchpb.StartActivityBattleResponse
+internal\logic\activitybattlelogic.go:162:71: undefined: matchpb.ActivityBattleReject
+internal\logic\activitybattlelogic.go:162:119: undefined: matchpb.StartActivityBattleResponse
+internal\logic\activitybattlelogic.go:170:46: undefined: matchpb.StartActivityBattleRequest
+internal\logic\activitybattlelogic.go:209:72: undefined: matchpb.ActivityBattleReject
+internal\logic\activitybattlelogic.go:274:31: undefined: matchpb.ActivityBattleReject
+internal\logic\activitybattlelogic.go:325:42: undefined: matchpb.ActivityBattleReject
+internal\logic\activitybattlelogic.go:325:42: too many errors
+FAIL	match [build failed]
+?   	match/generated/pb/game	[no test files]
+?   	match/internal/config	[no test files]
+ok  	match/internal/constants	0.675s
+?   	match/internal/discovery	[no test files]
+?   	match/internal/kafka	[no test files]
+FAIL	match/internal/logic [build failed]
+?   	match/internal/metrics	[no test files]
+?   	match/internal/noderegistry	[no test files]
+?   	match/internal/pkg/ctxkeys	[no test files]
+ok  	match/internal/playercontract	0.704s
+FAIL	match/internal/server [build failed]
+ok  	match/internal/svc	0.535s

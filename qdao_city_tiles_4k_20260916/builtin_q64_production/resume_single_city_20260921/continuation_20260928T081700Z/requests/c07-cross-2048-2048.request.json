@@ -1,0 +1,31 @@
+{
+  "preparedAtUtc": "2026-09-28T11:29:07.762665+00:00",
+  "tool": "image_gen.imagegen",
+  "payload": {
+    "prompt": "Repair this original-scale game-map patch in place, retaining the native 1254x1254 canvas, identical composition and isometric camera. The first image is an exact unscaled crop [1421,1421,2675,2675] from tile r08_c07. It contains artificial patch-grid seams at local x=627 and local y=627; these straight color boundaries cut across the continuous stone surfaces and sometimes offset their outlines. Remove those compositing defects across the complete patch, so each existing stone surface has coherent soft top-left illumination and no rectangular color blocks. Keep every real slab joint, carved line, gold border, rounded pale frame and charcoal inset in exactly the same place, scale and shape. Rejoin any stepped contours across the two false seams. The outer context is for overlap: match the actual outline endpoints closely, while removing artificial tonal steps even where they reach an edge. Keep clean smooth warm ivory, polished warm gold and restrained charcoal stone as already present. No cloud-shaped blotches, rough marbling, grit, tiny cracks, noisy microtexture, blur or sharpening. Reference 2 is only the approved Daoist Q-style material and rounded rendering, never add its characters, UI or text. Reference 3 is a native clean ivory material example only, not a source to stretch. Do not crop, zoom, resize, rotate or invent decoration. Output only the repaired square artwork. Use the best available host-managed builtin route; model, quality and size are not exposed tool parameters.\n",
+    "referenced_image_paths": [
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/continuation_20260928T081700Z/requests/c07-cross-2048-2048.context.png",
+      "E:/work/image/designs/gameplay-ui/04-guild.png",
+      "E:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/resume_single_city_20260921/next_tile_r08_c08/correction-20260923T114016880544Z/native-ivory-material-reference.png"
+    ],
+    "transparent_background": false
+  },
+  "configSnapshot": "../config.snapshot.json",
+  "sourceCandidateSha256": "7e60bc705c1b750cad18bffa9f486f7be680835c1ee3bf0f692f0202325699e6",
+  "sourcePath": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c07\\continuation-20260923\\qa-repair-20260923\\repaired-v1\\r08_c07.png",
+  "cropLTRB": [
+    1421,
+    1421,
+    2675,
+    2675
+  ],
+  "desiredNativePixels": [
+    1254,
+    1254
+  ],
+  "submittedModel": null,
+  "submittedQuality": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "prepared_not_submitted"
+}

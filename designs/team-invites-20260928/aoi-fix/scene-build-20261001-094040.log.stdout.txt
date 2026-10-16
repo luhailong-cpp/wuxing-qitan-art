@@ -1,0 +1,94 @@
+
+  [no-raw-pointer-member] SKIP (infra): neither no_raw_ptr_check.exe nor clang-query found.
+  kafka_manager.cpp
+  kafka_producer.cpp
+  infra.vcxproj -> E:\work\xuanming-server-mmo\lib\infra.lib
+  [no-raw-pointer-member] SKIP (core): neither no_raw_ptr_check.exe nor clang-query found.
+  game_channel.cpp
+  message_statistics.cpp
+  network_utils.cpp
+  node_message_utils.cpp
+  node_utils.cpp
+  player_message_utils.cpp
+  rpc_server.cc
+  traffic_statistics.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  etcd_helper.cpp
+  etcd_manager.cpp
+  etcd_service.cpp
+  node.cpp
+  node_allocator.cpp
+  node_connector.cpp
+  node_util.cpp
+  grpc_call_deadline.cpp
+  zone_utils.cpp
+  registration_manager.cpp
+  service_discovery_manager.cpp
+  core.vcxproj -> E:\work\xuanming-server-mmo\lib\core.lib
+  [no-raw-pointer-member] SKIP (config): neither no_raw_ptr_check.exe nor clang-query found.
+  config.cpp
+  node_config_manager.cpp
+  config.vcxproj -> E:\work\xuanming-server-mmo\lib\config.lib
+  [no-raw-pointer-member] SKIP (rpc): neither no_raw_ptr_check.exe nor clang-query found.
+  rpc_event_registry.cpp
+  rpc.vcxproj -> E:\work\xuanming-server-mmo\lib\rpc.lib
+  [no-raw-pointer-member] SKIP (proto): neither no_raw_ptr_check.exe nor clang-query found.
+  config.pb.cc
+  guild.grpc.pb.cc
+  guild.pb.cc
+  guild_db.pb.cc
+  guild_internal.grpc.pb.cc
+  guild_internal.pb.cc
+\guild\guild_internal.grpc.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.grpc.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+  (编译源文件“/guild/guild_internal.grpc.pb.cc”)
+  
+\guild\guild_internal.pb.cc(1,1): error C1083: 无法打开源文件: “guild\guild_internal.pb.cc”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\proto\proto.vcxproj]
+  (编译源文件“/guild/guild_internal.pb.cc”)
+  
+  [no-raw-pointer-member] SKIP (thread_context): neither no_raw_ptr_check.exe nor clang-query found.
+  node_context_manager.cpp
+  thread_context.vcxproj -> E:\work\xuanming-server-mmo\lib\thread_context.lib
+  [no-raw-pointer-member] SKIP (table): neither no_raw_ptr_check.exe nor clang-query found.
+  guildactivity_table.cpp
+  guildactivity_table_fk.cpp
+\code\guildactivity_table_fk.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table_fk.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+  (编译源文件“/code/guildactivity_table_fk.cpp”)
+  
+\code\guildactivity_table.cpp(1,1): error C1083: 无法打开源文件: “code\guildactivity_table.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\table\table.vcxproj]
+  (编译源文件“/code/guildactivity_table.cpp”)
+  
+  [no-raw-pointer-member] SKIP (grpc_client): neither no_raw_ptr_check.exe nor clang-query found.
+  battle_node_grpc_client.cpp
+  player_battle_grpc_client.cpp
+  chat_grpc_client.cpp
+  client_rpc_router_grpc_client.cpp
+  data_service_grpc_client.cpp
+  db_grpc_client.cpp
+  etcd_grpc_client.cpp
+  friend_grpc_client.cpp
+  grpc_init_client.cpp
+  guild_grpc_client.cpp
+  guild_internal_grpc_client.cpp
+\guild\guild_internal_grpc_client.cpp(1,1): error C1083: 无法打开源文件: “guild\guild_internal_grpc_client.cpp”: No such file or directory [E:\work\xuanming-server-mmo\cpp\generated\grpc_client\grpc_client.vcxproj]
+  (编译源文件“/guild/guild_internal_grpc_client.cpp”)
+  
+  Hiredis.cc
+  muduo.vcxproj -> E:\work\xuanming-server-mmo\lib\muduo.lib
+  [no-raw-pointer-member] SKIP (proto_helpers): neither no_raw_ptr_check.exe nor clang-query found.
+  proto_helpers.vcxproj -> E:\work\xuanming-server-mmo\lib\proto_helpers.lib
+  [no-raw-pointer-member] SKIP (session): neither no_raw_ptr_check.exe nor clang-query found.
+  session.vcxproj -> E:\work\xuanming-server-mmo\lib\session.lib
+  third_party.vcxproj -> E:\work\xuanming-server-mmo\lib\third_party.lib
+  [no-raw-pointer-member] SKIP (modules): neither no_raw_ptr_check.exe nor clang-query found.
+  bag_service.cpp
+  item_store.cpp
+  currency_system.cpp
+  guid_segment_client.cpp
+  guid_segment_registry.cpp
+  snapshot_system.cpp
+  transaction_log_system.cpp
+  modules.vcxproj -> E:\work\xuanming-server-mmo\lib\modules.lib
+

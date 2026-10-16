@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-09-28T11:22:14.472417+00:00",
+  "kind": "local native overlap repair experiment, unselected until reviewed",
+  "source": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\next_tile_r08_c07\\continuation-20260923\\qa-repair-20260923\\repaired-v1\\r08_c07.png",
+    "sha256": "7e60bc705c1b750cad18bffa9f486f7be680835c1ee3bf0f692f0202325699e6",
+    "pixels": [
+      4096,
+      4096
+    ]
+  },
+  "nativeReturn": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-2048-3072.native.png",
+    "sha256": "762725311f0c44dfac2c7d595090db1a363eb91cd6240852dfee94b641382763",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "notResized": true
+  },
+  "sourceRectLTRB": [
+    1421,
+    2445,
+    2675,
+    3699
+  ],
+  "tool": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\tools\\mechanical_join.py",
+    "sha256": "d342e30a704e75466fd1814d699ed4acdc16c8abd84cf1a213a638ee83fe4a1b"
+  },
+  "mechanicalJoin": {
+    "kind": "mechanical_generated_patch_registration",
+    "sourceResampling": "subpixel geometric registration, native dimensions retained",
+    "nativePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1254,
+      1254
+    ],
+    "sourceUpscaledTo4K": false,
+    "underlyingArtworkBlurred": false,
+    "maximumAllowedShiftPixels": 4.0,
+    "actualMaxShiftXY": [
+      4.0,
+      4.0
+    ],
+    "localColorMatching": true,
+    "maxLocalColorCorrectionRGB": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "edges": [
+      "left",
+      "right",
+      "top",
+      "bottom"
+    ],
+    "flowInner": 300.0,
+    "flowFull": 120.0,
+    "toneInner": 330.0,
+    "toneFull": 150.0,
+    "zeroMaskPixelsUnchanged": true,
+    "nativeInteriorPixelsUnchanged": true,
+    "preservedInteriorPixelCount": 352836,
+    "visualAcceptanceRequiresInspection": true
+  },
+  "mask": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\mask.png",
+    "sha256": "753c4077eea10a659e64187904c17115611463540bfdcfd100d6cf160bfb1a14",
+    "rule": "distance to all 4 source rectangle edges; alpha=0 at distance<=32; smoothstep((distance-32)/112), alpha=255 at distance>=144; single composite only",
+    "compositePassCount": 1,
+    "noSecondFeather": true
+  },
+  "candidate": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\r08_c07.png",
+    "sha256": "956cb34c3248f2a7f7336d500e6d2da0fe67a78341ae8bc31bf04e6b7cf42d61",
+    "pixels": [
+      4096,
+      4096
+    ]
+  },
+  "joinedNative": {
+    "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\joined-native.png",
+    "sha256": "7bf0ff30693f4874452e88ec8382c8264410a9b0db740eecd57251ad644d844a",
+    "pixels": [
+      1254,
+      1254
+    ]
+  },
+  "actualChangedBoundsLTRB": [
+    1456,
+    2480,
+    2640,
+    3664
+  ],
+  "changedPixelCount": 1265223,
+  "outsideRectangleUnchanged": true,
+  "qaBoards": [
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\qa-top-bottom.png",
+      "sha256": "91f02ae9ba36c680da75952e2b0517427e6b0dac43b2f335871d69c5afbabec0",
+      "pieces": [
+        {
+          "label": "top belt",
+          "rectLTRB": [
+            1380,
+            2400,
+            2716,
+            2790
+          ],
+          "boardXY": [
+            12,
+            36
+          ]
+        },
+        {
+          "label": "bottom belt",
+          "rectLTRB": [
+            1380,
+            3340,
+            2716,
+            3740
+          ],
+          "boardXY": [
+            12,
+            456
+          ]
+        }
+      ],
+      "nativeNoScale": true
+    },
+    {
+      "file": "E:\\work\\image\\qdao_city_tiles_4k_20260916\\builtin_q64_production\\resume_single_city_20260921\\continuation_20260928T081700Z\\repairs\\c07-cross-v1\\limited4\\qa-left-right.png",
+      "sha256": "898cf3ce41f5fb1562c83c92bc4b15827de36b976a8ea1f961ab51b023a40525",
+      "pieces": [
+        {
+          "label": "left belt",
+          "rectLTRB": [
+            1380,
+            2400,
+            1770,
+            3740
+          ],
+          "boardXY": [
+            12,
+            36
+          ]
+        },
+        {
+          "label": "right belt",
+          "rectLTRB": [
+            2325,
+            2400,
+            2716,
+            3740
+          ],
+          "boardXY": [
+            12,
+            1406
+          ]
+        }
+      ],
+      "nativeNoScale": true
+    }
+  ],
+  "formalArtAcceptancePassed": false,
+  "allSeamsMustBeRecheckedAfterCombination": true,
+  "sharedRecordsModified": false,
+  "sourceShaAtEnd": "7e60bc705c1b750cad18bffa9f486f7be680835c1ee3bf0f692f0202325699e6"
+}
