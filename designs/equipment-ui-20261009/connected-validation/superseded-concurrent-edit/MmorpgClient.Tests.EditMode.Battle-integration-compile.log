@@ -1,0 +1,2 @@
+Assets\Tests\EditMode\Battle\AttributePanelDisplayTests.cs(196,20): error CS1061: “AttributePanel”未包含“Back”的定义，并且找不到可接受第一个“AttributePanel”类型参数的可访问扩展方法“Back”(是否缺少 using 指令或程序集引用?)
+Assets\Tests\EditMode\Battle\AttributePanelDisplayTests.cs(203,20): error CS1061: “AttributePanel”未包含“Back”的定义，并且找不到可接受第一个“AttributePanel”类型参数的可访问扩展方法“Back”(是否缺少 using 指令或程序集引用?)
