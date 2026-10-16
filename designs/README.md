@@ -4,7 +4,7 @@
 
 ## 当前风格参考
 
-首要参考是用户亲自提供并已保存的 [道家 Q 版邮件风格图](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/user-references-20261009/mail-daoist-style.jpg)。其来源和用途记录在 [用户参考图清单](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/user-references-20261009/manifest.json)。本次已实际查看该图，并核验为 1932×814、SHA-256 `c1ab2e50b271e5c5590a92fe68bd6cf7d2c64cbd0d369b25b4ff5c6619033b63`。
+首要参考是用户亲自提供并已保存的 [道家 Q 版邮件风格图](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/user-references-20261009/mail-daoist-style.jpg)。其来源和用途记录在 [用户参考图清单](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/user-references-20261009/manifest.json)。本次已实际查看该图，并核验为 1932×814、SHA-256 `c1ab2e50b271e5c5590a92fe68bd6cf7d2c64cbd0d369b25b4ff5c6619033b63`。
 
 旧路径 `designs/mail-ui-v1/01-mail-event.png` 当前缺失。后续新请求使用上述用户原始 JPG，加上对应地图的当前 detail 图承接画法、材质和视觉完成度；这是相同用户已确认方向的可用参考替代，不是更换风格。不得把 JPG 冒称为旧 PNG 的同一文件或相同哈希，不回写旧生成记录中的引用、模型、质量或来源。
 
@@ -14,9 +14,9 @@
 
 | 地图 | 整体布局参考 | 近景材质与画法参考 | 已核验尺寸 |
 |---|---|---|---|
-| 主城 | [自然石地 v9](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/tianyong/tianyong-spring-natural-stone-v9.png) | [主城 detail v1](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/tianyong/tianyong-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1254×1254 |
-| 渔村 | [自然石地、连通道路 v10](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/donghai-natural-stone-clear-routes-v10.png) | [渔村 detail v1](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/donghai-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1254×1254 |
-| 八仙岛 | [自然石地、贴墙树木 v6](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/penglai/penglai-natural-stone-wall-trees-v6.png) | [八仙岛 detail v1](D:/work/image/qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/penglai/penglai-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1536×1024 |
+| 主城 | [自然石地 v9](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/tianyong/tianyong-spring-natural-stone-v9.png) | [主城 detail v1](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/tianyong/tianyong-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1254×1254 |
+| 渔村 | [自然石地、连通道路 v10](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/donghai-natural-stone-clear-routes-v10.png) | [渔村 detail v1](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/donghai-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1254×1254 |
+| 八仙岛 | [自然石地、贴墙树木 v6](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/penglai/penglai-natural-stone-wall-trees-v6.png) | [八仙岛 detail v1](../qdao_city_tiles_4k_20260916/builtin_q64_production/parallel_20261005/daylight-only-20261009/penglai/penglai-natural-stone-detail-v1.png) | 概览 1254×1254；detail 1536×1024 |
 
 概览负责建筑位置、道路和分区关系。detail 是独立近景重绘，用于材质和绘制完成度，不能当作严格坐标裁片。正式制作时实际附上对应概览、对应 detail、可用风格 JPG，以及必要的相邻原生图；参考输入数量遵循入口实际限制。既有有效原生相邻图优先用于连续几何与接缝。
 

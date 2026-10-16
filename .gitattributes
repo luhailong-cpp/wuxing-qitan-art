@@ -1,3 +1,5 @@
+# Preserve asset and provenance bytes across operating systems.
+* -text
 
 # v10 generated SVG byte hashes require stable LF on every checkout.
 /qdao_ui_style_recut_v10/staged/**/*.svg text eol=lf
